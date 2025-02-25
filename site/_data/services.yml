@@ -5,34 +5,40 @@ dev:
     cta: "Contáctanos"
   services:
     - name: "Web"
+      icon: "../assets/icons/web.svg"
       desc: "Creación de sitios web modernos, rápidos y personalizados."
       techs:
       - HTML
       - CSS
       - JavaScript
     - name: "Apps Móviles"
+      icon: "/assets/icons/app.svg"
       desc: "Creación de apps móviles a medida, optimizadas para iOS y Android, con diseño intuitivo y alto rendimiento."
       techs:
       - Flutter
       - React Native
       - Swift
     - name: "Backend"
+      icon: "/assets/icons/backend.svg"
       desc: "Creación de sistemas eficientes y escalables para el funcionamiento de aplicaciones y plataformas digitales."
       techs:
       - Node.js
       - Django
       - Laravel
     - name: "Software a medida"
+      icon: "/assets/icons/custom.svg"
       desc: Software personalizado adaptado a tus necesidades, optimizando procesos y mejorando eficiencia.
       techs:
       - Según proyecto
     - name: "Python o RPA"
+      icon: "/assets/icons/python.svg"
       desc: Ejecuta tareas repetitivas de forma eficiente, reduciendo errores y optimizando tiempos en entornos empresariales.
       techs:
       - Python
       - Robocorp
       - UiPath
     - name: "Scraping y Minería de Datos"
+      icon: "/assets/icons/mining.svg"
       desc: Extracción y análisis de datos web para obtener información valiosa y accionable.
       techs:
       - BSoup4 
@@ -40,6 +46,7 @@ dev:
       - Selenium
       - Pandas
     - name: "Integración de APIs y Webhooks"
+      icon: "/assets/icons/api.svg"
       desc: Conecta sistemas y automatiza flujos de datos en tiempo real mediante APIs y Webhooks, optimizando procesos y mejorando la eficiencia.
       techs:
       - Postman
@@ -47,6 +54,7 @@ dev:
       - GraphQL
       - Zapier
     - name: "Chatbots"
+      icon: "/assets/icons/chatbot.svg"
       desc: Creación de chatbots inteligentes para atención automatizada y eficiente.
       techs:
       - Dialogflow
@@ -54,6 +62,7 @@ dev:
       - ChatGPT
       - Botpress
     - name: "CMS personalizados e implementados"
+      icon: "/assets/icons/cms.svg"
       desc: Desarrollamos e implementamos CMS a medida, adaptados a tus necesidades para una gestión eficiente y personalizada de tu contenido.
       techs:
       - WordPress
