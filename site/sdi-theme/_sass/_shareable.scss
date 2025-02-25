@@ -1,0 +1,23 @@
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: rgb(42 57  77);
+  margin-bottom: 2rem;
+  margin-top: 0;
+  text-align: center;
+  
+  @media (min-width: 640px) {
+    text-align: left;
+  }
+}
+
+.header-clarif{
+  text-transform: uppercase;
+  font-size: .75rem;
+  color: rgb(86,105,130);
+  margin: 0;
+  @media (max-width: 640px) {
+    text-align: center;
+  }
+}
