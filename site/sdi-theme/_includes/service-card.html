@@ -5,7 +5,7 @@
         </svg>
     </div>
     <div class="service-content">
-        <h3>{{ service.title | default: "My Service" }}</h3>
+        <h3>{{ include.service.name | default: "My Service" }}</h3>
         <p>Creación de sitios web modernos, rápidos y personalizados.</p>
         <div class="service-tags">
             <span class="service-tag">HTML5</span>
