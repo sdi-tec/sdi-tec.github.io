@@ -5,12 +5,12 @@
         </svg>
     </div>
     <div class="service-content">
-        <h3>{{ include.service.name | default: "My Service" }}</h3>
-        <p>Creación de sitios web modernos, rápidos y personalizados.</p>
+        <h3>{{ include.service.name }}</h3>
+        <p>{{ include.service.desc }}</p>
         <div class="service-tags">
-            <span class="service-tag">HTML5</span>
-            <span class="service-tag">CSS3</span>
-            <span class="service-tag">JavaScript</span>
+            {% for tech in service.techs %}
+                <span class="service-tag">{{ tech }}</span>
+            {% endfor %}
         </div>
     </div>
 </li>

@@ -1,6 +1,62 @@
-- name: "Item 1"
-  description: "This is item 1"
-- name: "Item 2"
-  description: "This is item 2"
-- name: "Item 3"
-  description: "This is item 3"
+dev:
+  hero:
+    title: "Desarrollo y Programación a Medida"
+    tagline: "Creación de sitios web, apps móviles, software personalizado, automatización, minería de datos e integración de APIs"
+    cta: "Contáctanos"
+  services:
+    - name: "Web"
+      desc: "Creación de sitios web modernos, rápidos y personalizados."
+      techs:
+      - HTML
+      - CSS
+      - JavaScript
+    - name: "Apps Móviles"
+      desc: "Creación de apps móviles a medida, optimizadas para iOS y Android, con diseño intuitivo y alto rendimiento."
+      techs:
+      - Flutter
+      - React Native
+      - Swift
+    - name: "Backend"
+      desc: "Creación de sistemas eficientes y escalables para el funcionamiento de aplicaciones y plataformas digitales."
+      techs:
+      - Node.js
+      - Django
+      - Laravel
+    - name: "Software a medida"
+      desc: Software personalizado adaptado a tus necesidades, optimizando procesos y mejorando eficiencia.
+      techs:
+      - Según proyecto
+    - name: "Python o RPA"
+      desc: Ejecuta tareas repetitivas de forma eficiente, reduciendo errores y optimizando tiempos en entornos empresariales.
+      techs:
+      - Python
+      - Robocorp
+      - UiPath
+    - name: "Scraping y Minería de Datos"
+      desc: Extracción y análisis de datos web para obtener información valiosa y accionable.
+      techs:
+      - BSoup4 
+      - Scrapy
+      - Selenium
+      - Pandas
+    - name: "Integración de APIs y Webhooks"
+      desc: Conecta sistemas y automatiza flujos de datos en tiempo real mediante APIs y Webhooks, optimizando procesos y mejorando la eficiencia.
+      techs:
+      - Postman
+      - RESTful
+      - GraphQL
+      - Zapier
+    - name: "Chatbots"
+      desc: Creación de chatbots inteligentes para atención automatizada y eficiente.
+      techs:
+      - Dialogflow
+      - Rasa
+      - ChatGPT
+      - Botpress
+    - name: "CMS personalizados e implementados"
+      desc: Desarrollamos e implementamos CMS a medida, adaptados a tus necesidades para una gestión eficiente y personalizada de tu contenido.
+      techs:
+      - WordPress
+      - Strapi
+      - Sanity
+      - Ghost
