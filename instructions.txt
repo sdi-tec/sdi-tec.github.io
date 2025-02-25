@@ -1,0 +1,11 @@
+# compile scss, not needed on jekyll
+/Users/rtauler/dart-sass/sass --watch style.scss:style.css --style compressed
+
+# to test in mobbile
+python3 -m http.server 8000 --directory ~/sdi/site/_site/
+
+# to run jekyll
+bundle exec jekyll serve
+
+# to run jekyll and clear cache
+bundle exec jekyll clean && bundle exec jekyll serve
