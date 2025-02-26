@@ -1,0 +1,37 @@
+hero:
+  title: "Análisis de Datos e Inteligencia Artificial"
+  tagline: "Aumenta tus ingresos y optimiza tu negocio con analítica avanzada e inteligencia artificial"
+  cta: "Contáctanos"
+services:
+  - name: "Machine Learning y Modelado Predictivo"
+    icon: "../assets/icons/machine-learning.svg"
+    desc: "Soluciones de Machine Learning para transformar datos en insights predictivos y estrategias comerciales."
+    techs:
+      - "Python"
+      - "Scikit-Learn"
+      - "TensorFlow"
+    Ejemplo1: "<p><span><b>Modelo de Predicción de Ventas:</b> Algoritmo que analiza datos históricos para predecir ingresos futuros en un e-commerce. </span><span>(Python, Scikit-Learn, Pandas)</span></p>"
+    Ejemplo2: "<p><span><b>Sistema de Detección de Fraude Bancario:</b> Modelo de ML que identifica transacciones sospechosas en tiempo real. </span><span>(TensorFlow, Keras, AWS SageMaker)</span></p>"
+    Ejemplo3: "<p><span><b>Clasificación de Clientes con Machine Learning:</b> Segmentación de clientes para campañas de marketing con clustering y análisis de comportamiento. </span><span>(K-Means, Random Forest, Tableau)</span></p>"
+
+  - name: "Scraping y Análisis de Tendencias"
+    icon: "../assets/icons/scraping.svg"
+    desc: "Herramientas de scraping para extraer datos y análisis de tendencias que impulsan decisiones estratégicas."
+    techs:
+      - "Python"
+      - "BeautifulSoup"
+      - "Selenium"
+    Ejemplo1: "<p><span><b>Monitoreo de Precios de Competencia:</b> Scraper que extrae precios de Amazon y otras tiendas online para ajustar la estrategia de precios. </span><span>(Python, BeautifulSoup, Selenium)</span></p>"
+    Ejemplo2: "<p><span><b>Extracción de Datos de Redes Sociales:</b> Herramienta que analiza hashtags y menciones en Twitter para detectar tendencias. </span><span>(Tweepy, NLP, Google Trends API)</span></p>"
+    Ejemplo3: "<p><span><b>Recolección de Noticias y Resumen Automático:</b> Bot que extrae titulares de medios de comunicación y genera resúmenes con IA. </span><span>(Scrapy, GPT-4, OpenAI API)</span></p>"
+
+  - name: "Automatización de Procesos con IA"
+    icon: "../assets/icons/automation-ai.svg"
+    desc: "Automatización inteligente de procesos empresariales utilizando algoritmos de IA para optimizar la eficiencia."
+    techs:
+      - "Dialogflow"
+      - "OpenAI API"
+      - "Power Automate"
+    Ejemplo1: "<p><span><b>Chatbot con IA para Servicio al Cliente:</b> Bot que responde preguntas frecuentes y escala casos complejos a agentes humanos. </span><span>(Dialogflow, GPT, Twilio API)</span></p>"
+    Ejemplo2: "<p><span><b>Generación Automática de Contenido:</b> Algoritmo que crea descripciones de productos para una tienda online con inteligencia artificial. </span><span>(OpenAI API, LangChain, Pinecone)</span></p>"
+    Ejemplo3: "<p><span><b>Optimizaci&oacute;n de Procesos Empresariales:</b> IA que analiza flujos de trabajo y sugiere mejoras en la asignaci&oacute;n de recursos. </span><span>(Power Automate, IBM Watson, Azure AI)</span></p>"
