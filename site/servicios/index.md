@@ -11,7 +11,11 @@ permalink: /servicios/
   {% for pair in servicios_values %}
     {% assign servicio = pair[1] %}
     <li>
-      <a href="#">{{ servicio.hero.title }}</a>
+      {% if servicio.hero.permalink %}
+        <a href="{{ servicio.hero.permalink }}">{{ servicio.hero.title }}</a>
+      {% else %}
+        <a href="#">{{ servicio.hero.title }}</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
