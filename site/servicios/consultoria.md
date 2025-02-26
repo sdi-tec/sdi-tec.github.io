@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Diseño y Multimedia
-permalink: /servicios/diseno-multimedia/
-data_file: [ "servicios", "diseno" ]
+title: Consultoría y Formación
+permalink: /servicios/consultoria/
+data_file: [ "servicios", "consultoria" ]
 ---
 {% assign currentData = site.data %}
 {% for segment in page.data_file %}

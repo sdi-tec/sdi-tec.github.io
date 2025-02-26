@@ -1,9 +1,17 @@
 ---
 layout: default
-title: "Our Services"
+title: "Nuestros Servicios"
 permalink: /servicios/
 ---
-Welcome to our Services page. Here you can find:
-- [Service 1](/servicios/service1/)
-- [Service 2](/servicios/service2/)
-- [Service 3](/servicios/service3/)
+
+<h1>Nuestros Servicios</h1>
+
+{% assign servicios_values = site.data.servicios | values %}
+<ul>
+  {% for pair in servicios_values %}
+    {% assign servicio = pair[1] %}
+    <li>
+      <a href="#">{{ servicio.hero.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
