@@ -35,6 +35,10 @@ plugins:
   - jekyll-feed
   - jekyll-inline-svg
 
+compress_html:
+clippings: false
+comments: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -58,3 +62,4 @@ plugins:
 #custom
 sass:
   style: compressed
+
