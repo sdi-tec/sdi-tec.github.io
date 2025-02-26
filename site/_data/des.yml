@@ -3,9 +3,9 @@ hero:
   tagline: "Creación de sitios web, apps móviles, software personalizado, automatización, minería de datos e integración de APIs"
   cta: "Contáctanos"
 services:
-  - name: "Diseño Gráfico (logos, banners, branding)"
+  - name: "Diseño Gráfico"
     icon: "../assets/icons/graphic-design.svg"
-    desc: "Servicio de diseño gráfico especializado en logotipos, banners y branding. Rango de precios: 100 - 5.000+ €."
+    desc: "Servicio de diseño gráfico especializado en logotipos, banners y branding."
     techs:
       - Illustrator
       - Photoshop
@@ -16,7 +16,7 @@ services:
 
   - name: "Diseño UX/UI para Apps y Webs"
     icon: "../assets/icons/ux-ui-design.svg"
-    desc: "Servicio de diseño UX/UI para aplicaciones y sitios web. Rango de precios: 500 - 15.000+ €."
+    desc: "Servicio de diseño UX/UI para aplicaciones y sitios web."
     techs:
       - Figma
       - Adobe XD
@@ -27,7 +27,7 @@ services:
 
   - name: "Edición y Postproducción de Video"
     icon: "../assets/icons/edit-video.svg"
-    desc: "Servicio de edición y postproducción de video, ideal para spots publicitarios y contenidos digitales. Rango de precios: 200 - 10.000+ €."
+    desc: "Servicio de edición y postproducción de video, ideal para spots publicitarios y contenidos digitales."
     techs:
       - Premiere Pro
       - After Effects
