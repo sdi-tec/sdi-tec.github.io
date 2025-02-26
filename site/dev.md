@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Services
-permalink: /servicios/
+title: Desarrollo
+permalink: /desarrollo/
+data_file: dev
 ---
-
-{% include hero.html hero=site.data.services.dev.hero %}
-{% include components/services-cards.html type="dev" %}
-{% include components/table2.html %}
+{% assign currentData = site.data[page.data_file] %}
+{% include hero.html hero=currentData.hero %}
+{% include components/services-cards.html data=currentData %}
+{% include components/table.html data=currentData %}
