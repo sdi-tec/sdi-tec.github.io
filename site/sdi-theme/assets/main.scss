@@ -1,9 +1,9 @@
 ---
 # Only the YAML front matter is needed, even if empty
 ---
+@use 'shareable';
 @use "header";
 @use "basics";
-@use "shareable";
 @use "hero";
 @use "services";
 @use "tables";

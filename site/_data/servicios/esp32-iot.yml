@@ -1,0 +1,40 @@
+hero:
+  title: "ESP32 y IoT"
+  tagline: "Impulsamos soluciones IoT, conectividad avanzada y desarrollo de dispositivos embebidos con ESP32."
+  cta: "Descubre el potencial"
+  icon: "../assets/icons/esp32.svg"
+  permalink: "/servicios/esp32-iot/"
+
+services:
+  - name: "Desarrollo de IoT"
+    icon: "../assets/icons/iot.svg"
+    desc: "Diseño y creación de soluciones IoT personalizadas basadas en ESP32 para hogares, industrias y ciudades inteligentes."
+    techs:
+      - C++
+      - Arduino
+      - ESP-IDF
+    Ejemplo1: "<p><span><b>Sensores Conectados para el Hogar:</b> Implementación de sistemas de monitoreo ambiental y seguridad con ESP32.</span><span>(Arduino, ESP-IDF)</span></p>"
+    Ejemplo2: "<p><span><b>Control Industrial Inteligente:</b> Automatización de procesos industriales mediante redes de dispositivos ESP32.</span><span>(C++, FreeRTOS)</span></p>"
+    Ejemplo3: "<p><span><b>Smart City Solutions:</b> Integración de redes de sensores para gestión urbana y optimización de recursos.</span><span>(MicroPython, MQTT)</span></p>"
+    
+  - name: "Automatización y Control"
+    icon: "../assets/icons/automation.svg"
+    desc: "Implementación de sistemas de automatización para el control de dispositivos y procesos utilizando ESP32."
+    techs:
+      - Embedded C
+      - FreeRTOS
+      - MQTT
+    Ejemplo1: "<p><span><b>Sistemas de Riego Automatizados:</b> Control inteligente de riego en tiempo real para agricultura de precisión.</span><span>(Embedded C, MQTT)</span></p>"
+    Ejemplo2: "<p><span><b>Gestión Energética:</b> Monitorización y control de consumo eléctrico en instalaciones mediante ESP32.</span><span>(FreeRTOS, ESP-IDF)</span></p>"
+    Ejemplo3: "<p><span><b>Sistemas Domóticos:</b> Automatización del hogar para control de iluminación, climatización y seguridad.</span><span>(Embedded C, MicroPython)</span></p>"
+
+  - name: "Prototipado y Desarrollo Rápido"
+    icon: "../assets/icons/prototype.svg"
+    desc: "Servicios de prototipado rápido para validar y escalar ideas innovadoras aprovechando la versatilidad del ESP32."
+    techs:
+      - Rapid Prototyping
+      - ESP32 Modules
+      - IoT Platforms
+    Ejemplo1: "<p><span><b>Prototipos para Startups:</b> Desarrollo de prototipos funcionales para validar ideas de negocio con ESP32.</span><span>(ESP32, IoT Platforms)</span></p>"
+    Ejemplo2: "<p><span><b>Dispositivos Wearables:</b> Creación de prototipos de dispositivos conectados y portátiles basados en ESP32.</span><span>(Rapid Prototyping, MicroPython)</span></p>"
+    Ejemplo3: "<p><span><b>Integración Cloud:</b> Conexión de prototipos a servicios en la nube para análisis y control remoto.</span><span>(ESP32, MQTT)</span></p>"
