@@ -1,7 +1,5 @@
 .header {
   background-color: #fff;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-  0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .header-container {
@@ -126,8 +124,8 @@
           .menu-icon {
             // Force a consistent square container for icons
             flex: 0 0 2rem;
-            width: 1.5rem;
-            height: 1.5rem;
+            width: 1.25rem;
+            height: 1.25rem;
             margin-right: 1rem;
             display: flex;
             align-items: center;
