@@ -2,6 +2,7 @@ hero:
   title: "Marketing Digital y Crecimiento Online"
   tagline: "Impulsa tus ventas y acelera tu crecimiento con estrategias digitales innovadoras"
   cta: "Contáctanos"
+  icon: "../assets/icons/marketing.svg"
   permalink: /servicios/marketing/
 services:
   - name: "SEO (Optimización para Motores de Búsqueda)"

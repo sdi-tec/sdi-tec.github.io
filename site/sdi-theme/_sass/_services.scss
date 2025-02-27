@@ -1,3 +1,83 @@
+.services {
+  background-color: #DEE9FC;
+  &__container {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  &__item {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    height: 100%;
+  }
+
+  // TailwindUI-inspired icon styling
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;         // roughly 48px
+    height: 3rem;
+    border-radius: 9999px; // fully rounded
+    background-color: #EEF2FF; // Tailwind's indigo-50 equivalent
+    margin: 0 auto 1rem;  // center the icon and add bottom spacing
+
+    // Style for the inlined SVG
+    svg {
+      width: 1.5rem;      // roughly 24px
+      height: 1.5rem;
+      color: #4F46E5;     // Tailwind indigo-600 equivalent
+    }
+  }
+
+  &__title {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+    text-align: center;
+  }
+
+  &__description {
+    font-size: 0.8rem;
+    color: #4b5563;
+    text-align: center;
+    margin: 0;
+  }
+}
 /* Services Section */
 .services-section {
     background-color: rgb(219,227,234);

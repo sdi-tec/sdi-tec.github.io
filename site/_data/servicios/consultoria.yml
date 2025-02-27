@@ -2,6 +2,7 @@ hero:
   title: "Consultoría y Formación"
   tagline: "Transforma tu futuro digital con asesoría experta y formación práctica"
   cta: "Contáctanos"
+  icon: "../assets/icons/consultancy.svg"
   permalink: /servicios/consultoria/
 services:
   - name: "Consultoría en Transformación Digital"
