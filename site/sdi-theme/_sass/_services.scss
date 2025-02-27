@@ -1,6 +1,6 @@
 @use 'shareable';
 .services {
-  background-color: #DEE9FC;
+  background-color: #DDE3E9;
   &__container {
     max-width: 56rem;
     margin: 0 auto;
@@ -146,6 +146,11 @@
                 border-radius: 9999px;
                 background-color: #e5e7eb;
                 color: #1f2937;
+                text-align: center;
+                &:hover {
+                  background-color: #2C67A3;
+                  color: white;
+                }
               }
             }
           }
