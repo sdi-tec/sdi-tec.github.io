@@ -5,7 +5,7 @@ permalink: /servicios/
 ---
 <section class="services">
   <div class="services__container">
-    <h1>Nuestros Servicios:</h1>
+    <h1>Nuestros Servicios:</h1> 
     <ul class="services__list">
       {% assign servicios_values = site.data.servicios | values %}
       {% for pair in servicios_values %}
