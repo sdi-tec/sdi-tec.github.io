@@ -100,7 +100,10 @@
           .service-icon {
             flex-shrink: 0;
             color: #2C67A3;
-            
+            img{
+              height: 2rem;
+              width: 2rem;
+            }
             svg {
               fill: currentColor;
               height: 2rem;

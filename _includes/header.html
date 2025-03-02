@@ -22,7 +22,7 @@
               {% assign servicio = pair[1] %}
               <li>
                 <a href="{{ servicio.hero.permalink }}">
-                  <img class="menu-icon" src="{{ servicio.hero.icon }}">
+                  <img class="menu-icon" src="{{ servicio.hero.icon | relative_url}}">
                   <span class="service-title">{{ servicio.hero.title }}</span>
                 </a>
               </li>

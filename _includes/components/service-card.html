@@ -1,6 +1,6 @@
 <li class="service-item">
     <div class="service-icon">
-        {% svg "{{include.service.icon}}" %}
+        <img src="{{include.service.icon | relative_url}}">
     </div>
     <div class="service-content">
         <h3>{{ include.service.name }}</h3>
