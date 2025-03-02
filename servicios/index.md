@@ -13,7 +13,7 @@ permalink: /servicios/
         <li class="services__item">
           <a class="services__link" href="{{ servicio.hero.permalink }}">
             <div class="services__icon">
-              {% svg "{{ servicio.hero.icon }}" %}
+              <img src="{{ servicio.hero.icon }}">
             </div>
             <h2 class="services__title">{{ servicio.hero.title }}</h2>
             <p class="services__description">{{ servicio.hero.tagline }}</p>

@@ -44,12 +44,9 @@
     border-radius: 9999px; // fully rounded
     background-color: #EEF2FF; // Tailwind's indigo-50 equivalent
     margin: 0 auto 1rem;  // center the icon and add bottom spacing
-
-    // Style for the inlined SVG
-    svg {
+    img{
       width: 1.5rem;      // roughly 24px
       height: 1.5rem;
-      color: #4F46E5;     // Tailwind indigo-600 equivalent
     }
   }
 
