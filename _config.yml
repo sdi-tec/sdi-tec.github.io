@@ -30,7 +30,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: sdi-tec/sdi-theme
+#theme: sdi-theme
+#remote_theme: sdi/sdi-theme
 plugins:
   - jekyll-feed
   - jekyll-inline-svg

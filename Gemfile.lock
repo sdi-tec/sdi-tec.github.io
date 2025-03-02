@@ -1,9 +1,3 @@
-PATH
-  remote: sdi-theme
-  specs:
-    sdi-theme (0.1.0)
-      jekyll (>= 3.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -152,7 +146,6 @@ DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.12)
   jekyll-inline-svg
-  sdi-theme!
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1)
