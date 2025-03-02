@@ -3,7 +3,7 @@ layout: default
 title: "Inicio"
 permalink: /
 ---
-<!-- reference: https://www.enonic.com/ -->
+<!-- test reference: https://www.enonic.com/ -->
 <section class="hero-section">
 	<div class="hero-container">
 		<div class="hero-content home">
