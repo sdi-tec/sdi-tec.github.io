@@ -1,0 +1,24 @@
+.slide {
+  opacity: 0;
+  animation: slideAnimation 9s infinite;
+}
+
+.slide1 {
+  animation-delay: 0s;
+}
+
+.slide2 {
+  animation-delay: 3s;
+}
+
+.slide3 {
+  animation-delay: 6s;
+}
+
+@keyframes slideAnimation {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  33%  { opacity: 1; }
+  43%  { opacity: 0; }
+  100% { opacity: 0; }
+}
