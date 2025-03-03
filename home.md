@@ -12,7 +12,7 @@ permalink: /
 				<p class="hero-description">Innovación digital para tu empresa: Desarrollo web y software, ciberseguridad, diseño impactante, marketing digital, IoT, IA y consultoría estratégica. <br>Todo lo que necesitas para crecer y destacarte.
 				</p>
 				<div class="hero-button-wrapper">
-					<a href="#" class="hero-button">Contactanos</a>
+					<a href="#" class="hero-button">Contáctanos</a>
 				</div>
 			</div>
 			<div class="home-hero-screenshot">
@@ -36,25 +36,42 @@ permalink: /
 		</div>
 	</div>
 </section>
-<section id="servicios">
-	<h2>¿Cómo Podemos Ayudarte?</h2>
-	<ul>
-		<li><strong>Desarrollo y Programación:</strong> Creamos sitios web, apps y software adaptado a tu empresa.</li>
-		<li><strong>Ciberseguridad y Administración de Sistemas:</strong> Protege tus datos con expertos en seguridad digital.</li>
-		<li><strong>Diseño y Multimedia:</strong> Diseño impactante para potenciar tu marca y comunicación.</li>
-		<li><strong>Marketing Digital:</strong> Estrategias avanzadas de SEO, SEM y redes sociales para aumentar tus ventas.</li>
-		<li><strong>Domótica e IoT:</strong> Automatización inteligente para hogares y negocios conectados.</li>
-		<li><strong>Inteligencia Artificial:</strong> Implementamos IA para mejorar la eficiencia y personalización en tus procesos.</li>
-		<li><strong>Consultoría Estratégica:</strong> Transformación digital, automatización y estrategias para escalar tu empresa.</li>
-	</ul>
+<section class="services">
+	<div class="services__container">
+		<h2>Nuestros Servicios:</h2> 
+		<ul class="services__list">
+			{% assign servicios_values = site.data.servicios | values %}
+			{% for pair in servicios_values %}
+			{% assign servicio = pair[1] %}
+			<li class="services__item">
+				<a class="services__link" href="{{ servicio.hero.permalink }}">
+					<div class="services__icon">
+						<img src="{{ servicio.hero.icon | relative_url}}">
+					</div>
+					<h2 class="services__title">{{ servicio.hero.title }}</h2>
+					<p class="services__description">{{ servicio.hero.tagline }}</p>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 </section>
 <section id="beneficios">
-	<h2>¿Por Qué Elegirnos?</h2>
-	<ul>
-		<li><strong>Soluciones 100% personalizadas</strong> para tu negocio.</li>
-		<li><strong>Equipo de expertos</strong> en desarrollo, IA y marketing digital.</li>
-		<li><strong>Resultados medibles</strong> que impulsan el crecimiento y la rentabilidad.</li>
-	</ul>
+	<div class="beneficios__container">
+		<h2>Por Qué Elegirnos:</h2>
+		<p>Elige nuestras soluciones personalizadas y obtén el máximo potencial para tu negocio. Contamos con un equipo experto en desarrollo, IA y marketing digital, enfocados en ofrecerte resultados medibles que impulsan tu crecimiento y rentabilidad. 🚀</p>
+		<ul>
+			<li><strong>100% personalizado</strong>
+				Diseñamos soluciones personalizadas para tu negocio, adaptadas a tus objetivos y mercado. Analizamos tus necesidades para optimizar procesos, mejorar tu presencia digital y maximizar resultados, desde software a medida hasta estrategias de marketing digital efectivas.
+			</li>
+			<li><strong>Expertos en desarrollo, IA y marketing digital</strong>
+				Contamos con un equipo de expertos en desarrollo de software, inteligencia artificial y marketing digital. Creamos plataformas eficientes, automatizamos procesos e implementamos estrategias para atraer, convertir y fidelizar clientes, impulsando el crecimiento de tu negocio.
+			</li>
+			<li><strong>Resultados medibles</strong>
+				Garantizamos soluciones con impacto real, utilizando métricas y análisis avanzados para medir el rendimiento. Nuestro enfoque basado en datos asegura un retorno positivo de inversión y decisiones estratégicas para el crecimiento de tu negocio.
+			</li>
+		</ul>
+	</div>
 </section>
 <section id="casos">
 	<h2>Casos de Éxito</h2>

@@ -22,3 +22,26 @@
   43%  { opacity: 0; }
   100% { opacity: 0; }
 }
+
+.beneficios__container{
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem 1rem;
+  h2{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #5E6776;
+    font-family: monospace;
+  }
+  li{
+    font-size: .9rem;
+    line-height: 1.5rem;
+    color: #5E6776;
+    margin-bottom: 1rem;
+  }
+}
