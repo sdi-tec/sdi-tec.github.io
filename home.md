@@ -59,7 +59,7 @@ permalink: /
 <section id="beneficios">
 	<div class="beneficios__container">
 		<h2>Por qué elegirnos:</h2>
-		<p class="desc">Elige nuestras soluciones personalizadas y obtén el máximo potencial para tu negocio. Contamos con un equipo experto en desarrollo, IA y marketing digital, enfocados en ofrecerte resultados medibles que impulsan tu crecimiento y rentabilidad. 🚀</p>
+		<p class="desc">Elige nuestras soluciones personalizadas y obtén el máximo potencial para tu negocio. Contamos con un equipo experto en desarrollo, IA y marketing digital, enfocados en ofrecerte resultados medibles que impulsan tu crecimiento y rentabilidad.</p>
 		<ul class="grid">
 			<li class="icon-personalized">
 				<strong>Atención personalizada</strong>

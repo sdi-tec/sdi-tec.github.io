@@ -27,11 +27,20 @@
   max-width: 56rem;
   margin: 0 auto;
   padding: 3rem 1rem 3rem 1rem;
+  @media (max-width: 640px){
+    padding: 1rem;
+  }
   h2{
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 2rem;
     text-align: center;
+    line-height: normal;
+    @media (max-width: 640px){
+      font-size: 2.25rem;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
   }
   p{
     font-size: 1rem;
@@ -42,6 +51,11 @@
     &.desc{
       font-family: monospace;
     }
+    @media (max-width: 640px){
+      text-align: left;
+      font-size: 0.75rem;
+      margin-bottom: 1rem;
+    }
   }
   .grid {
     list-style: none;
@@ -49,23 +63,28 @@
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  gap: 2rem; // adjust spacing between grid items
-
-  li {
-    position: relative;
-    padding: 1rem 1rem 1rem 3rem; // extra left padding for the icon
-    border-radius: 4px;
-
+    gap: 2rem; // adjust spacing between grid items
+    @media (max-width: 640px){
+      grid-template-columns: unset;
+      gap: 0;
+    }    
+    li {
+      position: relative;
+      padding: 1rem 1rem 1rem 3rem; // extra left padding for the icon
+      border-radius: 4px;
+      @media (max-width: 640px){
+        padding-right: 0;
+      }
     // Pseudo-element for the custom SVG icon
     &:before {
       content: "";
       position: absolute;
       left: 0;
       top: 1rem; // or use top: 50%; transform: translateY(-50%); for vertical centering
-      width: 2rem;
-      height: 2rem;
+      width: 2.2rem;
+      height: 2.2rem;
       background-position: center;
-      background-size: 80%;
+      background-size: 70%;
       background-repeat: no-repeat;
       background-color: #00B39D;
       border-radius: 5px;
@@ -93,7 +112,7 @@
     }
     strong {
       display: block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
       font-weight: bold;
       color: #333;
     }
@@ -103,6 +122,9 @@
       color: #666;
       font-size: 0.9rem;
       text-align: left;
+      @media (max-width: 640px){
+        font-size: .75rem;
+      }  
     }
   }
 }
