@@ -6,7 +6,7 @@ hero:
   permalink: "/sdi/servicios/desarrollo/"
 services:
   - name: "Web"
-    icon: "../assets/icons/web.svg"
+    icon: "assets/icons/web.svg"
     desc: "Creación de sitios web modernos, rápidos y personalizados."
     techs:
     - HTML

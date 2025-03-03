@@ -6,7 +6,7 @@ hero:
   permalink: "/sdi/servicios/inteligencia-artificial/"
 services:
   - name: "Machine Learning y Modelado Predictivo"
-    icon: "../assets/icons/machine-learning.svg"
+    icon: "assets/icons/machine-learning.svg"
     desc: "Soluciones de Machine Learning para transformar datos en insights predictivos y estrategias comerciales."
     techs:
       - "Python"
@@ -17,7 +17,7 @@ services:
     Ejemplo3: "<p><span><b>Clasificación de Clientes con Machine Learning:</b> Segmentación de clientes para campañas de marketing con clustering y análisis de comportamiento. </span><span>(K-Means, Random Forest, Tableau)</span></p>"
 
   - name: "Scraping y Análisis de Tendencias"
-    icon: "../assets/icons/scraping.svg"
+    icon: "assets/icons/scraping.svg"
     desc: "Herramientas de scraping para extraer datos y análisis de tendencias que impulsan decisiones estratégicas."
     techs:
       - "Python"
@@ -28,7 +28,7 @@ services:
     Ejemplo3: "<p><span><b>Recolección de Noticias y Resumen Automático:</b> Bot que extrae titulares de medios de comunicación y genera resúmenes con IA. </span><span>(Scrapy, GPT-4, OpenAI API)</span></p>"
 
   - name: "Automatización de Procesos con IA"
-    icon: "../assets/icons/automation-ai.svg"
+    icon: "assets/icons/automation-ai.svg"
     desc: "Automatización inteligente de procesos empresariales utilizando algoritmos de IA para optimizar la eficiencia."
     techs:
       - "Dialogflow"

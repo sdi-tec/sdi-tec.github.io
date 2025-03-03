@@ -6,7 +6,7 @@ hero:
   permalink: "/sdi/servicios/diseno-multimedia/"
 services:
   - name: "Diseño Gráfico"
-    icon: "../assets/icons/graphic-design.svg"
+    icon: "assets/icons/graphic-design.svg"
     desc: "Servicio de diseño gráfico especializado en logotipos, banners y branding."
     techs:
       - Illustrator
@@ -17,7 +17,7 @@ services:
     Ejemplo3: "<p><span><b>Diseño de Merchandising para Marca:</b> Creación de etiquetas, empaques y gráficos para tazas y camisetas.</span><span>(Illustrator, CorelDRAW)</span></p>"
 
   - name: "Diseño UX/UI para Apps y Webs"
-    icon: "../assets/icons/ux-ui-design.svg"
+    icon: "assets/icons/ux-ui-design.svg"
     desc: "Servicio de diseño UX/UI para aplicaciones y sitios web."
     techs:
       - Figma
@@ -28,7 +28,7 @@ services:
     Ejemplo3: "<p><span><b>Dashboard para Plataforma SaaS:</b> Diseño de interfaz y experiencia de usuario para un software de gestión de tareas.</span><span>(Adobe XD, InVision)</span></p>"
 
   - name: "Edición y Postproducción de Video"
-    icon: "../assets/icons/edit-video.svg"
+    icon: "assets/icons/edit-video.svg"
     desc: "Servicio de edición y postproducción de video, ideal para spots publicitarios y contenidos digitales."
     techs:
       - Premiere Pro

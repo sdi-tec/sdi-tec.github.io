@@ -6,7 +6,7 @@ hero:
   permalink: "/sdi/servicios/consultoria/"
 services:
   - name: "Consultoría en Transformación Digital"
-    icon: "../assets/icons/digital-transformation.svg"
+    icon: "assets/icons/digital-transformation.svg"
     desc: "Servicio de Consultoría en Transformación Digital que te ayuda a implementar estrategias innovadoras y optimizar procesos para crecer en el entorno digital."
     techs:
       - HubSpot
@@ -18,7 +18,7 @@ services:
     Ejemplo3: "<p><span><b>Estrategia Digital para una Franquicia de Restaurantes:</b> Implementaci&oacute;n de pedidos online, fidelizaci&oacute;n de clientes y an&aacute;lisis de datos con IA. </span><span>(Shopify, OpenTable, Power BI)</span></p>"
 
   - name: "Mentor&iacute;a en Creaci&oacute;n de Startups y Negocios Digitales"
-    icon: "../assets/icons/startup-mentoring.svg"
+    icon: "assets/icons/startup-mentoring.svg"
     desc: "Servicio de Mentor&iacute;a en Creaci&oacute;n de Startups y Negocios Digitales para guiar a emprendedores en el desarrollo de modelos de negocio y estrategias de crecimiento."
     techs:
       - Lean Startup
@@ -29,7 +29,7 @@ services:
     Ejemplo3: "<p><span><b>Monetizaci&oacute;n de una Plataforma de Contenido Digital:</b> Creaci&oacute;n de estrategias de membres&iacute;a, publicidad y productos digitales para un negocio basado en suscripciones. </span><span>(Patreon, Gumroad, Hotmart)</span></p>"
 
   - name: "Auditor&iacute;a de UX/UI para Sitios Web"
-    icon: "../assets/icons/ux-audit.svg"
+    icon: "assets/icons/ux-audit.svg"
     desc: "Servicio de Auditor&iacute;a de UX/UI para Sitios Web que identifica áreas de mejora en la experiencia del usuario y optimiza la interfaz para aumentar la conversi&oacute;n."
     techs:
       - Figma

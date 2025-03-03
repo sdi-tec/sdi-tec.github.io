@@ -7,7 +7,7 @@ hero:
 
 services:
   - name: "Hogares Inteligentes"
-    icon: "../assets/icons/smart-home.svg"
+    icon: "assets/icons/smart-home.svg"
     desc: "Implementamos soluciones integrales para automatizar iluminación, climatización, seguridad y más, transformando tu hogar en un espacio inteligente."
     techs:
       - IoT
@@ -19,7 +19,7 @@ services:
     Ejemplo3: "<p><span><b>Asistentes Virtuales Integrados:</b> Control de dispositivos mediante Alexa, Google Home y otros asistentes inteligentes.</span><span>(API, Home Automation Protocols)</span></p>"
 
   - name: "Integración de Sistemas y Dispositivos"
-    icon: "../assets/icons/integration.svg"
+    icon: "assets/icons/integration.svg"
     desc: "Conectamos y centralizamos la gestión de dispositivos y sistemas de automatización para crear un ecosistema unificado y fácil de manejar."
     techs:
       - Middleware
@@ -31,7 +31,7 @@ services:
     Ejemplo3: "<p><span><b>Interoperabilidad Total:</b> Conexión de sistemas diversos mediante protocolos estandarizados para un hogar verdaderamente inteligente.</span><span>(REST APIs, Cloud Integration)</span></p>"
 
   - name: "Prototipado y Desarrollo en Domótica"
-    icon: "../assets/icons/prototype.svg"
+    icon: "assets/icons/prototype.svg"
     desc: "Desarrollo rápido de prototipos para validar nuevas ideas en automatización, permitiendo innovar y adaptar soluciones a las necesidades específicas de cada cliente."
     techs:
       - Rapid Prototyping

@@ -6,7 +6,7 @@ hero:
   permalink: "/sdi/servicios/nicho-crecimiento/"
 services:
   - name: "Automatización de Procesos con No-Code/Low-Code"
-    icon: "../assets/icons/no-code.svg"
+    icon: "assets/icons/no-code.svg"
     desc: "Automatiza procesos sin necesidad de programar, integrando herramientas visuales para optimizar tus flujos de trabajo."
     techs:
       - "Zapier"
@@ -17,7 +17,7 @@ services:
     Ejemplo3: "<p><span><b>Generaci&oacute;n de Reportes Autom&aacute;ticos en Google Sheets:</b> Workflow que extrae datos de Google Analytics y los visualiza en dashboards sin necesidad de c&oacute;digo. </span><span>(Make, Google Data Studio, Airtable)</span></p>"
 
   - name: "Consultor&iacute;a en Web3 y Blockchain"
-    icon: "../assets/icons/blockchain.svg"
+    icon: "assets/icons/blockchain.svg"
     desc: "Asesor&iacute;a especializada en Web3 y Blockchain para impulsar la innovaci&oacute;n y descentralizaci&oacute;n en tu negocio."
     techs:
       - "Ethereum"
@@ -28,7 +28,7 @@ services:
     Ejemplo3: "<p><span><b>Desarrollo de un Smart Contract para una Startup DeFi:</b> Creaci&oacute;n de contratos inteligentes para pr&eacute;stamos descentralizados. </span><span>(Solidity, Ethereum, Polygon)</span></p>"
 
   - name: "Gesti&oacute;n y Optimizaci&oacute;n de Canales de YouTube/TikTok"
-    icon: "../assets/icons/youtube-tiktok.svg"
+    icon: "assets/icons/youtube-tiktok.svg"
     desc: "Optimiza el crecimiento y monetizaci&oacute;n de tus canales con estrategias de contenido, SEO y an&aacute;lisis de datos."
     techs:
       - "TubeBuddy"
@@ -39,7 +39,7 @@ services:
     Ejemplo3: "<p><span><b>Automatizaci&oacute;n de Publicaciones para un Influencer:</b> Uso de herramientas para programar y analizar el rendimiento de videos en diversas plataformas. </span><span>(Later, Hootsuite, Social Blade)</span></p>"
 
   - name: "Optimizaci&oacute;n de Flujos de Trabajo con IA"
-    icon: "../assets/icons/ai-workflow.svg"
+    icon: "assets/icons/ai-workflow.svg"
     desc: "Integra herramientas de inteligencia artificial para automatizar y mejorar la eficiencia de tus procesos internos."
     techs:
       - "GPT"

@@ -6,7 +6,7 @@ hero:
   permalink: "/sdi/servicios/marketing/"
 services:
   - name: "SEO (Optimización para Motores de Búsqueda)"
-    icon: "../assets/icons/seo.svg"
+    icon: "assets/icons/seo.svg"
     desc: "Servicio de SEO diseñado para mejorar la visibilidad en buscadores y atraer tráfico orgánico."
     techs:
       - "Google Search Console"
@@ -17,7 +17,7 @@ services:
     Ejemplo3: "<p><span><b>SEO T&eacute;cnico para una Tienda Online:</b> Optimizaci&oacute;n de estructura web, Core Web Vitals y Schema para mejorar el ranking en Google. </span><span>(Screaming Frog, SEMrush, PageSpeed Insights)</span></p>"
 
   - name: "SEM (Publicidad en Google Ads, Bing Ads)"
-    icon: "../assets/icons/sem.svg"
+    icon: "assets/icons/sem.svg"
     desc: "Servicio de SEM orientado a campañas pagadas para maximizar el alcance y conversión."
     techs:
       - "Google Ads"
@@ -28,7 +28,7 @@ services:
     Ejemplo3: "<p><span><b>Campa&ntilde;a en Google Shopping para una Tienda de Electr&oacute;nica:</b> Optimizaci&oacute;n de feeds de productos y estrategia de pujas. </span><span>(Google Merchant Center, Google Ads, Feed Optimizer)</span></p>"
 
   - name: "Gesti&oacute;n de Redes Sociales (Community Management)"
-    icon: "../assets/icons/social-media.svg"
+    icon: "assets/icons/social-media.svg"
     desc: "Gestión de redes sociales para aumentar el engagement y construir comunidad online."
     techs:
       - "Canva"
@@ -39,7 +39,7 @@ services:
     Ejemplo3: "<p><span><b>Gesti&oacute;n de TikTok para un Influencer:</b> Creaci&oacute;n de videos virales y respuesta a comentarios para aumentar la audiencia. </span><span>(CapCut, TikTok Analytics, Trends Dashboard)</span></p>"
 
   - name: "Publicidad en Redes Sociales (Facebook Ads, Instagram Ads, TikTok Ads, LinkedIn Ads)"
-    icon: "../assets/icons/social-ads.svg"
+    icon: "assets/icons/social-ads.svg"
     desc: "Publicidad en redes sociales para impulsar campañas publicitarias y atraer nuevos clientes."
     techs:
       - "Meta Ads Manager"
@@ -50,7 +50,7 @@ services:
     Ejemplo3: "<p><span><b>Instagram Ads para una Tienda de Cosm&eacute;ticos:</b> Anuncios de conversi&oacute;n con influencers y pruebas A/B. </span><span>(Meta Ads, Instagram Shopping, Retargeting)</span></p>"
 
   - name: "Email Marketing y Automatizaci&oacute;n"
-    icon: "../assets/icons/email-marketing.svg"
+    icon: "assets/icons/email-marketing.svg"
     desc: "Estrategias de email marketing y automatización para nutrir y convertir leads."
     techs:
       - "MailChimp"
@@ -61,7 +61,7 @@ services:
     Ejemplo3: "<p><span><b>Bolet&iacute;n de Noticias para una Revista Digital:</b> Campa&ntilde;as personalizadas seg&uacute;n preferencias de los suscriptores. </span><span>(ConvertKit, SendGrid, A/B Testing)</span></p>"
 
   - name: "Copywriting y Redacci&oacute;n Persuasiva"
-    icon: "../assets/icons/copywriting.svg"
+    icon: "assets/icons/copywriting.svg"
     desc: "Copywriting persuasivo para mejorar la comunicación y aumentar las conversiones."
     techs:
       - "Persuasive Copy"
@@ -72,7 +72,7 @@ services:
     Ejemplo3: "<p><span><b>Guiones para Videos de Venta en YouTube:</b> Estructuraci&oacute;n de contenido atractivo con t&eacute;cnica PAS. </span><span>(Copy.ai, ChatGPT, Hook Story Offer)</span></p>"
 
   - name: "Creaci&oacute;n y Gesti&oacute;n de E-commerce (Shopify, WooCommerce, Amazon FBA)"
-    icon: "../assets/icons/ecommerce.svg"
+    icon: "assets/icons/ecommerce.svg"
     desc: "Servicios de e-commerce para diseñar y gestionar tiendas online de alto rendimiento."
     techs:
       - "Shopify"
@@ -83,7 +83,7 @@ services:
     Ejemplo3: "<p><span><b>Lanzamiento de un Negocio en Amazon FBA:</b> Investigaci&oacute;n de productos, optimizaci&oacute;n de listados y estrategias de PPC. </span><span>(Helium 10, Jungle Scout, Amazon Seller Central)</span></p>"
 
   - name: "Gesti&oacute;n de Afiliados y Monetizaci&oacute;n de Blogs"
-    icon: "../assets/icons/affiliates.svg"
+    icon: "assets/icons/affiliates.svg"
     desc: "Gestión de afiliados y estrategias de monetización para potenciar ingresos en blogs."
     techs:
       - "AffiliateWP"
@@ -94,7 +94,7 @@ services:
     Ejemplo3: "<p><span><b>Optimización de Ingresos a Trav&eacute;s de SEO y Afiliados:</b> Integraci&oacute;n de enlaces de afiliados en contenido evergreen para aumentar conversiones. </span><span>(Ahrefs, SEMrush, Affiliate Networks)</span></p>"
 
   - name: "Growth Hacking y Estrategias de Viralizaci&oacute;n"
-    icon: "../assets/icons/growth-hacking.svg"
+    icon: "assets/icons/growth-hacking.svg"
     desc: "Growth hacking innovador para impulsar el crecimiento y viralizaci&oacute;n de tu marca."
     techs:
       - "BuzzSumo"
@@ -105,7 +105,7 @@ services:
     Ejemplo3: "<p><span><b>Estrategia de Viralizaci&oacute;n para App M&oacute;vil:</b> Uso de incentivos y marketing de referidos para aumentar descargas. </span><span>(Branch, Appsflyer, Firebase)</span></p>"
 
   - name: "Marketing de Influencers y Colaboraciones"
-    icon: "../assets/icons/influencer.svg"
+    icon: "assets/icons/influencer.svg"
     desc: "Campa&ntilde;as con influencers y colaboraciones estratégicas para ampliar el alcance de marca."
     techs:
       - "Instagram"
