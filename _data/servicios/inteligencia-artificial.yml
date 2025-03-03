@@ -2,8 +2,8 @@ hero:
   title: "Análisis de Datos e IA"
   tagline: "Aumenta tus ingresos y optimiza tu negocio con analítica avanzada e inteligencia artificial"
   cta: "Contáctanos"
-  icon: "../assets/icons/artificial-intelligence.svg"
-  permalink: /servicios/inteligencia-artificial/
+  icon: "assets/icons/artificial-intelligence.svg"
+  permalink: "/sdi/servicios/inteligencia-artificial/"
 services:
   - name: "Machine Learning y Modelado Predictivo"
     icon: "../assets/icons/machine-learning.svg"

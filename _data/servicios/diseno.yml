@@ -2,8 +2,8 @@ hero:
   title: "Diseño y Multimedia"
   tagline: "Creación de sitios web, apps móviles, software personalizado, automatización, minería de datos e integración de APIs"
   cta: "Contáctanos"
-  icon: "../assets/icons/design.svg"
-  permalink: "/servicios/diseno-multimedia/"
+  icon: "assets/icons/design.svg"
+  permalink: "/sdi/servicios/diseno-multimedia/"
 services:
   - name: "Diseño Gráfico"
     icon: "../assets/icons/graphic-design.svg"
