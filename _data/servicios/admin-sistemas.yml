@@ -3,7 +3,7 @@ hero:
   tagline: "Protege tus activos digitales y asegura la continuidad de tu negocio con soluciones integrales de ciberseguridad"
   cta: "Contáctanos"
   icon: "assets/icons/admin.svg"
-  permalink: "/sdi/servicios/admin-sistemas/"
+  permalink: "/servicios/admin-sistemas/"
 services:
   - name: "Auditoría de Seguridad Web y Ethical Hacking"
     icon: "assets/icons/security-audit.svg"

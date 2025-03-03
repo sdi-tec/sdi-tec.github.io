@@ -3,7 +3,7 @@ hero:
   tagline: "Impulsamos soluciones IoT, conectividad avanzada y desarrollo de dispositivos embebidos con ESP32."
   cta: "Descubre el potencial"
   icon: "assets/icons/esp32.svg"
-  permalink: "/sdi/servicios/esp32-iot/"
+  permalink: "/servicios/esp32-iot/"
 
 services:
   - name: "Desarrollo de IoT"

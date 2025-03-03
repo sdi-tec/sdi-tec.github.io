@@ -3,7 +3,7 @@ hero:
   tagline: "Impulsa tu innovación y conquista nuevos mercados con soluciones especializadas y de vanguardia"
   cta: "Contáctanos"
   icon: "assets/icons/grow.svg"
-  permalink: "/sdi/servicios/nicho-crecimiento/"
+  permalink: "/servicios/nicho-crecimiento/"
 services:
   - name: "Automatización de Procesos con No-Code/Low-Code"
     icon: "assets/icons/no-code.svg"

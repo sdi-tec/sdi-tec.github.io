@@ -3,7 +3,7 @@ hero:
   tagline: "Impulsa tus ventas y acelera tu crecimiento con estrategias digitales innovadoras"
   cta: "Contáctanos"
   icon: "assets/icons/marketing.svg"
-  permalink: "/sdi/servicios/marketing/"
+  permalink: "/servicios/marketing/"
 services:
   - name: "SEO (Optimización para Motores de Búsqueda)"
     icon: "assets/icons/seo.svg"

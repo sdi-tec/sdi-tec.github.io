@@ -3,7 +3,7 @@ hero:
   tagline: "Soluciones de automatización para hogares y espacios inteligentes, conectados y seguros."
   cta: "Descubre la domótica"
   icon: "assets/icons/domotica.svg"
-  permalink: "/sdi/servicios/domotica-integral/"
+  permalink: "/servicios/domotica-integral/"
 
 services:
   - name: "Hogares Inteligentes"
