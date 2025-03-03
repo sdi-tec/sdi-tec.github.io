@@ -20,9 +20,6 @@ h2 {
   font-size: .75rem;
   color: rgb(86,105,130);
   margin: 0;
-  @media (max-width: 640px) {
-    text-align: center;
-  }
 }
 
 @mixin card{
