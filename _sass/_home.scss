@@ -26,22 +26,84 @@
 .beneficios__container{
   max-width: 56rem;
   margin: 0 auto;
-  padding: 1rem 1rem 3rem 1rem;
+  padding: 3rem 1rem 3rem 1rem;
   h2{
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 2rem;
+    text-align: center;
   }
   p{
     font-size: 1rem;
     line-height: 1.5rem;
     color: #5E6776;
-    font-family: monospace;
+    text-align: center;
+    margin-bottom: 2rem;
+    &.desc{
+      font-family: monospace;
+    }
   }
-  li{
-    font-size: .9rem;
-    line-height: 1.5rem;
-    color: #5E6776;
-    margin-bottom: 1rem;
+  .grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; // adjust spacing between grid items
+
+  li {
+    position: relative;
+    padding: 1rem 1rem 1rem 3rem; // extra left padding for the icon
+    border-radius: 4px;
+
+    // Pseudo-element for the custom SVG icon
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1rem; // or use top: 50%; transform: translateY(-50%); for vertical centering
+      width: 2rem;
+      height: 2rem;
+      background-position: center;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      background-color: #00B39D;
+      border-radius: 5px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23333" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"/></svg>');
+    }
+    &.icon-personalized {
+      &:before {
+        background-image: url('/assets/icons/personalized-w.svg');
+      }
+    }
+    &.icon-experience {
+      &:before {
+        background-image: url('/assets/icons/experience-w.svg');
+      }
+    }
+    &.icon-innovation {
+      &:before {
+        background-image: url('/assets/icons/lightbulb-w.svg');
+      }
+    }
+    &.icon-measurable {
+      &:before {
+        background-image: url('/assets/icons/win-w.svg');
+      }
+    }
+    strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    p {
+      margin: 0;
+      color: #666;
+      font-size: 0.9rem;
+      text-align: left;
+    }
   }
+}
 }

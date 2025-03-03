@@ -58,17 +58,24 @@ permalink: /
 </section>
 <section id="beneficios">
 	<div class="beneficios__container">
-		<h2>Por Qué Elegirnos:</h2>
-		<p>Elige nuestras soluciones personalizadas y obtén el máximo potencial para tu negocio. Contamos con un equipo experto en desarrollo, IA y marketing digital, enfocados en ofrecerte resultados medibles que impulsan tu crecimiento y rentabilidad. 🚀</p>
-		<ul>
-			<li><strong>100% personalizado</strong>
-				Diseñamos soluciones personalizadas para tu negocio, adaptadas a tus objetivos y mercado. Analizamos tus necesidades para optimizar procesos, mejorar tu presencia digital y maximizar resultados, desde software a medida hasta estrategias de marketing digital efectivas.
+		<h2>Por qué elegirnos:</h2>
+		<p class="desc">Elige nuestras soluciones personalizadas y obtén el máximo potencial para tu negocio. Contamos con un equipo experto en desarrollo, IA y marketing digital, enfocados en ofrecerte resultados medibles que impulsan tu crecimiento y rentabilidad. 🚀</p>
+		<ul class="grid">
+			<li class="icon-personalized">
+				<strong>Atención personalizada</strong>
+				<p>Desarrollamos soluciones a medida, ofreciendo un servicio cercano y adaptado a las necesidades específicas de cada cliente.</p>
 			</li>
-			<li><strong>Expertos en desarrollo, IA y marketing digital</strong>
-				Contamos con un equipo de expertos en desarrollo de software, inteligencia artificial y marketing digital. Creamos plataformas eficientes, automatizamos procesos e implementamos estrategias para atraer, convertir y fidelizar clientes, impulsando el crecimiento de tu negocio.
+			<li class="icon-experience">
+				<strong>Experiencia comprobada</strong>
+				<p>Contamos con un equipo de profesionales con amplia trayectoria, garantizando calidad y eficiencia en cada proyecto.</p>
 			</li>
-			<li><strong>Resultados medibles</strong>
-				Garantizamos soluciones con impacto real, utilizando métricas y análisis avanzados para medir el rendimiento. Nuestro enfoque basado en datos asegura un retorno positivo de inversión y decisiones estratégicas para el crecimiento de tu negocio.
+			<li class="icon-innovation">
+				<strong>Innovación constante</strong>
+				<p>Aplicamos tecnologías de vanguardia y enfoques creativos que posicionan a nuestros clientes a la delantera en el mercado.</p>
+			</li>
+			<li class="icon-measurable">
+				<strong>Resultados medibles:</strong>
+				<p>Estrategias respaldadas por métricas y análisis que aseguran un retorno positivo de inversión.</p>
 			</li>
 		</ul>
 	</div>
