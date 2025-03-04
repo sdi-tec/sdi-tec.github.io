@@ -184,16 +184,19 @@
     color: #4b5563;
     margin: 0 0 0.5rem;
   }
-  
-  .placeholder {
-    background-color: #f3f4f6;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.375rem;
-    color: #6b7280;
-    font-style: italic;
+  .card-image {
+    flex: 1;
+    margin: 0 -1rem -1rem -1rem;
+    position: relative;
+    overflow: hidden;
+    background-image: url('/assets/img/agile.jpg');
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
   }
 }
 

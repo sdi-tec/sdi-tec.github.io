@@ -48,9 +48,7 @@ permalink: /nosotros/
     <p>
       En un mundo de soluciones infladas, creamos productos ágiles, livianos y efectivos. Optimizamos cada línea de código para resultados rápidos y sin bloatware.
     </p>
-    <div class="placeholder">
-      <span>[ Phone Screenshot ]</span>
-    </div>
+    <div class="card-image"></div>
   </div>
   <div class="feature-card card-2">
     <h2>Experiencia Técnica</h2>
