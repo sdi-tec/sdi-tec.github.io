@@ -81,8 +81,9 @@ permalink: /
 </section>
 <section id="casos">
 	<div class="casos-container">
-		<h2>Casos de Éxito</h2>
-		<div class="caso llagosta">
+		<h2>Casos de éxito:</h2>
+		<div class="slider">
+			<div class="caso company1">
 				<figure>
 					<img class="logo" src="/assets/img/llag-logo-w.svg" alt="La llagosta">
 					<blockquote>
@@ -92,35 +93,29 @@ permalink: /
 						<strong>Concha</strong><p>Finanzas, La Llagosta</p>
 					</figcaption>
 				</figure>
+			</div>
+			<div class="caso company2">
+				<figure>
+					<img class="logo" src="/assets/icons/web-w.svg" alt="Company 2">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mi ipsum, vestibulum in maximus ac, bibendum sit amet purus.</p>
+					</blockquote>
+					<figcaption>
+						<strong>Mike</strong><p>CTO, Miktech</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="caso company3">
+				<figure>
+					<img class="logo" src="/assets/icons/admin-w.svg" alt="Company 3">
+					<blockquote>
+						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+					</blockquote>
+					<figcaption>
+						<strong>John</strong><p>CMO, Syswave</p>
+					</figcaption>
+				</figure>
+			</div>
 		</div>
-		<p><strong>SEO para E-commerce:</strong> Aumento de tráfico en un 200% en 3 meses.</p>
-		<p><strong>Automatización con IA:</strong> Reducción de costos operativos en un 50% con procesos optimizados.</p>
-		<p><strong>Desarrollo de Marketplace:</strong> Incremento de ventas online en un 300% tras el lanzamiento.</p>
 	</div>
-</section>
-<section id="testimonios">
-	<h2>Lo Que Dicen Nuestros Clientes</h2>
-	<blockquote>"Desde que implementamos sus estrategias, nuestro negocio ha crecido de manera exponencial en el mercado digital." - CEO de Startup</blockquote>
-	<blockquote>"Nos ayudaron a optimizar nuestra seguridad digital y ahora operamos con total tranquilidad." - Director de IT</blockquote>
-</section>
-<section id="blog">
-	<h2>Recursos Exclusivos</h2>
-	<p>Mantente al día con las últimas tendencias en tecnología, inteligencia artificial y estrategias digitales.</p>
-	<a href="#">Accede a Nuestros Artículos</a>
-</section>
-<section id="contacto">
-	<h2>¡Hablemos de tu Proyecto!</h2>
-	<p>Agenda una consulta gratuita y descubre cómo podemos llevar tu negocio al siguiente nivel.</p>
-	<form>
-		<label for="nombre">Nombre:</label>
-		<input type="text" id="nombre" name="nombre" required>
-		<br>
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" required>
-		<br>
-		<label for="mensaje">Mensaje:</label>
-		<textarea id="mensaje" name="mensaje" required></textarea>
-		<br>
-		<button type="submit"><strong>Solicitar Consulta</strong></button>
-	</form>
 </section>

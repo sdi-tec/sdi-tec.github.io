@@ -126,39 +126,82 @@
 }
 }
 
-#casos{
-  .casos-container{
-    max-width: 56rem;
+#casos {
+  background-color: #EDFDF9;
+  .casos-container {
+    width: 100%;
+    max-width: 56rem; // container scales with viewport but maxes out at 56rem
     margin: 0 auto;
-    padding: 3rem 1rem 3rem 1rem;
-    h2{
-
-    }
-    .caso{
-      background-color: gray;
-      border-radius: 10px;
-      &.llagosta{
-        background: linear-gradient(rgba(66, 148, 137, 0.8), rgba(66, 148, 137, 0.8)), url('/assets/img/llag-bg.jpg') center/cover no-repeat;
+    padding: 3rem 0;
+    overflow: hidden;
+    h2 {
+      @media (max-width: 640px){
+        padding-left: 1rem;
       }
-      figure{
+    }
+    
+    .slider {
+      display: grid;
+      grid-template-areas: "slide";
+      // The container's height is determined by the grid cell, which in turn
+      // is influenced by the content (the tallest slide).
+    }
+    
+    .caso {
+      grid-area: slide;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      animation: fade 15s ease-in-out infinite;
+      
+      // Stagger the animations so slides fade in/out in sequence:
+      &:nth-child(1) {
+        animation-delay: 0s;
+      }
+      &:nth-child(2) {
+        animation-delay: 5s;
+      }
+      &:nth-child(3) {
+        animation-delay: 10s;
+      }
+            
+      &.company1 {
+        background: linear-gradient(rgba(66, 148, 137, 0.8), rgba(66, 148, 137, 0.8)),
+          url('/assets/img/llag-bg.jpg') center/cover no-repeat;
+      }
+      &.company2 {
+        background: linear-gradient(rgba(66, 148, 137, 0.8), rgba(66, 148, 137, 0.8)),
+          url('/assets/img/pholder-company1.jpg') center/cover no-repeat;
+      }
+      &.company3 {
+        background: linear-gradient(rgba(66, 148, 137, 0.8), rgba(66, 148, 137, 0.8)),
+          url('/assets/img/pholder-company1.jpg') center/cover no-repeat;
+      }
+      
+      figure {
         margin: 0;
         padding: 5rem;
         color: white;
-        img.logo{
-          width: 10rem;
+        
+        @media (max-width: 768px) {
+          padding: 2rem; // adjust padding on mobile
         }
-        blockquote{
+        
+        img.logo {
+          max-width: 10rem;
+          max-height: 3rem;
+        }
+        blockquote {
           margin: 0;
-          p{
+          p {
             font-size: 1.25rem;
             font-weight: 600;
           }
         }
-        figcaption{
-          strong{
+        figcaption {
+          strong {
             display: block;
           }
-          p{
+          p {
             margin: 0;
             font-weight: 300;
           }
@@ -166,4 +209,12 @@
       }
     }
   }
+}
+
+@keyframes fade {
+  0% { opacity: 1; }
+  3.33% { opacity: 1; }
+  33.33% { opacity: 1; }
+  36.67% { opacity: 0; }
+  100% { opacity: 0; }
 }
