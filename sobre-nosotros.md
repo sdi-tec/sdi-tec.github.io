@@ -11,7 +11,7 @@ permalink: /nosotros/
 				<p class="hero-description">El exceso de complejidad ralentiza la innovación. 
 				</p>
 				<p class="hero-description">
-					Nos especializamos en desarrollar soluciones tecnológicas rápidas, livianas y sin bloatware, optimizando cada línea de código y cada proceso. Desde plataformas digitales de alto rendimiento hasta sistemas embebidos y automatización avanzada, nuestro enfoque está en la precisión, la funcionalidad y la escalabilidad.		
+					Nos especializamos en desarrollar soluciones tecnológicas rápidas, livianas y sin <i>bloatware</i>, optimizando cada línea de código y cada proceso. Desde plataformas digitales de alto rendimiento hasta sistemas embebidos y automatización avanzada, nuestro enfoque está en la precisión, la funcionalidad y la escalabilidad.		
 				</p>
 				<p class="hero-description">
 					Diseñamos con propósito, implementamos con estrategia y entregamos con impacto.
@@ -41,43 +41,60 @@ permalink: /nosotros/
 		</div>
 	</div>
 </section>
-<section class="bento-grid">
-	<div class="bento-grid-wrapper">
-		<div class="container">
-			<!-- Column 1 (single row) -->
-			<div class="column first">
-				<h3>Mobile Friendly</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-				<img src="https://via.placeholder.com/300x200" alt="Placeholder Image" />
-			</div>
-			<!-- Column 2 (two rows) -->
-			<div class="column second">
-				<!-- Top row -->
-				<div class="row top">
-					<h3>Performance</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-					<img src="https://via.placeholder.com/300x100" alt="Performance Placeholder" />
-				</div>
-				<!-- Bottom row -->
-				<div class="row bottom">
-					<h3>Security</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-					<img src="https://via.placeholder.com/300x100" alt="Security Placeholder" />
-				</div>
-			</div>
-			<!-- Column 3 (single row) -->
-			<div class="column third">
-				<img src="https://via.placeholder.com/300x200" alt="Placeholder Image" />
-				<h2>Powerful APIs</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-				<img src="https://via.placeholder.com/300x200" alt="Placeholder Image" />
-			</div>
-		</div>
-		<!-- En un mundo saturado de soluciones tecnológicas infladas e ineficientes, nuestra misión es clara: desarrollar productos ágiles, livianos y extremadamente funcionales. Nos especializamos en optimizar cada línea de código, cada diseño y cada implementación para ofrecer soluciones rápidas, eficientes y libres de bloatware.
-		Somos un equipo multidisciplinario con experiencia en desarrollo de software, ciberseguridad, automatización, domótica, inteligencia artificial, marketing y gestión empresarial. Nuestra filosofía de trabajo se basa en la simplicidad bien ejecutada: construimos soluciones tecnológicas sin elementos innecesarios, enfocadas en la velocidad, la usabilidad y la seguridad.
-		Nuestra experiencia abarca desde el desarrollo de infraestructuras digitales para el sector financiero y de ciberseguridad hasta la creación de sistemas embebidos con ESP32 y soluciones de domótica inteligentes. Contamos con amplio conocimiento en diseño UX/UI aplicado a plataformas de alto rendimiento, asegurando interfaces intuitivas y experiencias de usuario optimizadas. Además, nuestra capacidad en sysadmin y optimización de servidores garantiza entornos robustos y eficientes.
-		Llevamos la eficiencia más allá del código. Nuestro enfoque en gestión y estrategia comercial nos permite desarrollar no solo productos tecnológicos de alto nivel, sino también modelos de negocio escalables y alineados con las necesidades del mercado. Desde la automatización de procesos con IA hasta la implementación de estrategias de ventas y marketing digital, nuestra metodología está diseñada para maximizar el impacto y reducir los desperdicios operativos.
-		El equilibrio entre tecnología y calidad de vida también es parte de nuestra identidad. Creemos en la importancia de una vida balanceada, en la optimización no solo de sistemas, sino también de procesos humanos. Entendemos que el rendimiento real no se trata de horas infinitas de trabajo, sino de aplicar el conocimiento de manera estratégica para obtener resultados superiores.
-		Si buscas eficiencia, velocidad y soluciones bien ejecutadas sin la sobrecarga innecesaria que ralentiza y encarece los productos digitales, somos el equipo adecuado. Diseñamos con precisión, desarrollamos con propósito y entregamos con impacto. -->
-	</div>
+
+<section class="features">
+  <div class="feature-card card-1">
+    <h2>Ágil y funcional</h2>
+    <p>
+      En un mundo de soluciones infladas, creamos productos ágiles, livianos y efectivos. Optimizamos cada línea de código para resultados rápidos y sin bloatware.
+    </p>
+    <div class="placeholder">
+      <span>[ Phone Screenshot ]</span>
+    </div>
+  </div>
+  <div class="feature-card card-2">
+    <h2>Experiencia Técnica</h2>
+    <p>
+      Desarrollamos infraestructuras digitales, sistemas embebidos y domótica inteligente. Dominamos UX/UI y optimizamos servidores para experiencias de alto rendimiento.
+    </p>
+    <div class="placeholder">
+      <span>[ Code Snippet ]</span>
+    </div>
+  </div>
+  <div class="feature-card card-3">
+    <h2>Simple y segura</h2>
+    <p>
+      Somos un equipo multidisciplinario que crea soluciones tecnológicas sin excesos, priorizando usabilidad, ciberseguridad y eficiencia en cada proyecto.
+    </p>
+    <div class="placeholder">
+      <span>[ Chart ]</span>
+    </div>
+  </div>
+  <div class="feature-card card-4">
+    <h2>Escalabilidad y Eficiencia</h2>
+    <p>
+      Con enfoque estratégico, desarrollamos productos y modelos escalables que maximizan el impacto y reducen desperdicios operativos, yendo más allá del simple código.
+    </p>
+    <div class="placeholder">
+      <span>[ Security Icon ]</span>
+    </div>
+  </div>
+  <div class="feature-card card-5">
+    <h2>Equilibrio</h2>
+    <p>
+      Fomentamos el balance entre tecnología y calidad de vida, optimizando sistemas y procesos humanos para obtener resultados superiores sin excesos.
+    </p>
+    <div class="placeholder">
+      <span>[ Security Icon ]</span>
+    </div>
+  </div>
+  <div class="feature-card card-6">
+    <h2>Resultados</h2>
+    <p>
+      Si buscas eficiencia sin sobrecarga, somos tu equipo ideal. Diseñamos con precisión y desarrollamos con propósito para entregar impacto real.
+    </p>
+    <div class="placeholder">
+      <span>[ Security Icon ]</span>
+    </div>
+  </div>
 </section>

@@ -148,14 +148,74 @@
     }
 }
 
-.bento-grid{
-    .bento-grid-wrapper{
-        width: 56rem;
-        margin: 0 auto;
-        .container{
-            .column{
-                // float: left;
-            }
-        }
-    }
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "card1 card1 card2 card3"
+    "card4 card4 card2 card5"
+    "card6 card6 card6 card5";
+  gap: 1rem;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.feature-card {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  /* Ensure text content is top-aligned */
+  text-align: left;
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
+    color: #111827;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #4b5563;
+    margin: 0 0 0.5rem;
+  }
+  
+  .placeholder {
+    background-color: #f3f4f6;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    color: #6b7280;
+    font-style: italic;
+  }
+}
+
+/* Grid area assignments */
+.card-1 { grid-area: card1; }
+.card-2 { grid-area: card2; }
+.card-3 { grid-area: card3; }
+.card-4 { grid-area: card4; }
+.card-5 { grid-area: card5; }
+.card-6 { grid-area: card6; }
+
+/* Responsive: stack cards on narrow screens */
+@media (max-width: 767px) {
+  .features {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6";
+  }
 }
