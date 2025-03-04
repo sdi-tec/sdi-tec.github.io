@@ -152,6 +152,7 @@
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
       animation: fade 15s ease-in-out infinite;
+      border-radius: 10px;
       
       // Stagger the animations so slides fade in/out in sequence:
       &:nth-child(1) {
