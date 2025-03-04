@@ -28,6 +28,7 @@
             //specific one for home
             &.home{
                 display: flex;
+                gap: 2rem;
                 .home-hero-text-cta{
                     text-align: left;
                     flex-basis: 65%;
@@ -42,6 +43,43 @@
                         }
                         @media (max-width: 640px) {
                             max-height: 20rem;;
+                        }
+                    }
+                }
+                .mosaic-img-wrapper{
+                    flex-basis: 35%;
+                    .mosaic-column{
+                        width: 50%;
+                        float: left;
+                        &.column1{
+                            padding-top: 7rem;
+                        }
+                        .item{
+                            padding: .8rem;
+                            border-radius: 5px;
+                            @mixin img-mosaic{
+                                background-repeat: no-repeat;
+                                height: 176px;
+                                background-position: center;
+                                background-size: cover;
+                                border-radius: 10px;
+                            }
+                            .img1{
+                                background-image: url("/assets/img/row.jpg");
+                                @include img-mosaic;
+                            }
+                            .img2{
+                                background-image: url("/assets/img/fast.jpg");
+                                @include img-mosaic;
+                            }
+                            .img3{
+                                background-image: url("/assets/img/tech.jpg");
+                                @include img-mosaic;
+                            }
+                            .img4{
+                                background-image: url("/assets/img/balance.jpg");
+                                @include img-mosaic;
+                            }
                         }
                     }
                 }
@@ -102,7 +140,7 @@
                     fill 300ms,
                     stroke 300ms;
                     &:hover {
-                        background-color: #00B3FB;
+                        background-color: #0DE9CF;
                     }
                     &:focus {
                         outline: none;

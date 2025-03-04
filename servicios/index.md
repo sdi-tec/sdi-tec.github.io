@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Nuestros Servicios"
-permalink: /servicios/
+permalink: /servicios
 ---
 <section class="services">
   <div class="services__container">
