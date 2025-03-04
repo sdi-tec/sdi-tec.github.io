@@ -27,9 +27,6 @@
   max-width: 56rem;
   margin: 0 auto;
   padding: 3rem 1rem 3rem 1rem;
-  @media (max-width: 640px){
-    padding: 1rem;
-  }
   h2{
     font-size: 3rem;
     font-weight: 500;
@@ -44,7 +41,6 @@
   }
   p{
     font-size: 1rem;
-    line-height: 1.5rem;
     color: #5E6776;
     text-align: center;
     margin-bottom: 2rem;
@@ -128,4 +124,46 @@
     }
   }
 }
+}
+
+#casos{
+  .casos-container{
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 3rem 1rem 3rem 1rem;
+    h2{
+
+    }
+    .caso{
+      background-color: gray;
+      border-radius: 10px;
+      &.llagosta{
+        background: linear-gradient(rgba(66, 148, 137, 0.8), rgba(66, 148, 137, 0.8)), url('/assets/img/llag-bg.jpg') center/cover no-repeat;
+      }
+      figure{
+        margin: 0;
+        padding: 5rem;
+        color: white;
+        img.logo{
+          width: 10rem;
+        }
+        blockquote{
+          margin: 0;
+          p{
+            font-size: 1.25rem;
+            font-weight: 600;
+          }
+        }
+        figcaption{
+          strong{
+            display: block;
+          }
+          p{
+            margin: 0;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
 }

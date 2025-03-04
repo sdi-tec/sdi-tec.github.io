@@ -3,7 +3,6 @@ layout: default
 title: "Inicio"
 permalink: /
 ---
-<!-- test reference: https://www.enonic.com/ -->
 <section class="hero-section">
 	<div class="hero-container">
 		<div class="hero-content home">
@@ -81,10 +80,23 @@ permalink: /
 	</div>
 </section>
 <section id="casos">
-	<h2>Casos de Éxito</h2>
-	<p><strong>SEO para E-commerce:</strong> Aumento de tráfico en un 200% en 3 meses.</p>
-	<p><strong>Automatización con IA:</strong> Reducción de costos operativos en un 50% con procesos optimizados.</p>
-	<p><strong>Desarrollo de Marketplace:</strong> Incremento de ventas online en un 300% tras el lanzamiento.</p>
+	<div class="casos-container">
+		<h2>Casos de Éxito</h2>
+		<div class="caso llagosta">
+				<figure>
+					<img class="logo" src="/assets/img/llag-logo-w.svg" alt="La llagosta">
+					<blockquote>
+						<p>En La Llagosta estamos encantados. Nos solucionan los problemas el mismo día y nos olvidamos por completo. Todo funciona de manera mucho más fluida. <br>¡Un servicio excelente!</p>
+					</blockquote>
+					<figcaption>
+						<strong>Concha</strong><p>Finanzas, La Llagosta</p>
+					</figcaption>
+				</figure>
+		</div>
+		<p><strong>SEO para E-commerce:</strong> Aumento de tráfico en un 200% en 3 meses.</p>
+		<p><strong>Automatización con IA:</strong> Reducción de costos operativos en un 50% con procesos optimizados.</p>
+		<p><strong>Desarrollo de Marketplace:</strong> Incremento de ventas online en un 300% tras el lanzamiento.</p>
+	</div>
 </section>
 <section id="testimonios">
 	<h2>Lo Que Dicen Nuestros Clientes</h2>
