@@ -44,7 +44,7 @@ permalink: /nosotros/
 
 <section class="features">
   <div class="features__container">
-    <div class="feature-card card-1">
+    <div class="feature-card agile card-1">
       <h2>Ágil y funcional</h2>
       <p>
         En un mundo de soluciones infladas, creamos productos ágiles, livianos y efectivos. Optimizamos cada línea de código para resultados rápidos y sin bloatware.
