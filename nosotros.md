@@ -50,31 +50,31 @@ permalink: /nosotros/
         En un mundo de soluciones infladas, creamos productos ágiles, livianos y efectivos. Optimizamos cada línea de código para resultados rápidos y sin bloatware.
       </p>
     </div>
-    <div class="feature-card card-2">
+    <div class="feature-card efficient card-2">
       <h2>Experiencia Técnica</h2>
       <p>
         Desarrollamos infraestructuras digitales, sistemas embebidos y domótica inteligente. Dominamos UX/UI y optimizamos servidores para experiencias de alto rendimiento.
       </p>
     </div>
-    <div class="feature-card card-3">
+    <div class="feature-card safe card-3">
       <h2>Simple y segura</h2>
       <p>
         Somos un equipo multidisciplinario que crea soluciones tecnológicas sin excesos, priorizando usabilidad, ciberseguridad y eficiencia en cada proyecto.
       </p>
     </div>
-    <div class="feature-card card-4">
+    <div class="feature-card scalability card-4">
       <h2>Escalabilidad y Eficiencia</h2>
       <p>
         Con enfoque estratégico, desarrollamos productos y modelos escalables que maximizan el impacto y reducen desperdicios operativos, yendo más allá del simple código.
       </p>
     </div>
-    <div class="feature-card card-5">
+    <div class="feature-card balance card-5">
       <h2>Equilibrio</h2>
       <p>
         Fomentamos el balance entre tecnología y calidad de vida, optimizando sistemas y procesos humanos para obtener resultados superiores sin excesos.
       </p>
     </div>
-    <div class="feature-card card-6">
+    <div class="feature-card results card-6">
       <h2>Resultados</h2>
       <p>
         Si buscas eficiencia sin sobrecarga, somos tu equipo ideal. Diseñamos con precisión y desarrollamos con propósito para entregar impacto real.

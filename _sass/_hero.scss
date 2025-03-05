@@ -173,15 +173,39 @@
       text-align: left;
       position: relative;
       @mixin feature-card-bg{
-        background-position: 95% 80%;
-        background-size: 5rem;
-      }
-      &.agile{
-        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-        url('/assets/icons/rocket.svg') center no-repeat;
+        // background-size: 5rem;
+    }
+    &.agile{
+        background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+        url('/assets/icons/rocket.svg') center/cover no-repeat;
         @include feature-card-bg;
-      }
-      h2 {
+    }
+    &.efficient{
+        background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+        url('/assets/icons/efficient.svg') center/cover no-repeat;
+        @include feature-card-bg;
+    }
+    &.scalability{
+        background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+        url('/assets/icons/scalability.svg') center/cover no-repeat;
+        @include feature-card-bg;
+    }
+    &.safe{
+        background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+        url('/assets/icons/safe.svg') center/cover no-repeat;
+        @include feature-card-bg;
+    }
+    &.balance{
+        background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+        url('/assets/icons/balance.svg') center/cover no-repeat;
+        @include feature-card-bg;
+    }
+    &.results{
+        background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+        url('/assets/icons/results.svg') center/cover no-repeat;
+        @include feature-card-bg;
+    }
+    h2 {
         font-size: 1.2rem;
         margin: 0 0 0.5rem;
         color: #111827;
