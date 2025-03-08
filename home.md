@@ -85,6 +85,17 @@ permalink: /
 		<div class="slider">
 			<div class="caso company1">
 				<figure>
+					<img class="logo" src="/assets/img/leibor-w.svg" alt="Leibor">
+					<blockquote>
+						<p>Definitivamente, recomiendo sus servicios a cualquier empresa o profesional que busque soluciones digitales confiables y eficientes.</p>
+					</blockquote>
+					<figcaption>
+						<strong>Pol</strong><p>Leibor</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="caso company2">
+				<figure>
 					<img class="logo" src="/assets/img/llag-logo-w.svg" alt="La llagosta">
 					<blockquote>
 						<p>En La Llagosta estamos encantados. Nos solucionan los problemas el mismo día y nos olvidamos por completo. Todo funciona de manera mucho más fluida. <br>¡Un servicio excelente!</p>
@@ -94,25 +105,14 @@ permalink: /
 					</figcaption>
 				</figure>
 			</div>
-			<div class="caso company2">
-				<figure>
-					<img class="logo" src="/assets/icons/web-w.svg" alt="Company 2">
-					<blockquote>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mi ipsum, vestibulum in maximus ac, bibendum sit amet purus.</p>
-					</blockquote>
-					<figcaption>
-						<strong>Mike</strong><p>CTO, Miktech</p>
-					</figcaption>
-				</figure>
-			</div>
 			<div class="caso company3">
 				<figure>
-					<img class="logo" src="/assets/icons/admin-w.svg" alt="Company 3">
+					<img class="logo" src="/assets/img/defelipe-w.svg" alt="Defelipe">
 					<blockquote>
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+						<p>El equipo entendió perfectamente nuestras necesidades, optimizando nuestra imagen en línea y ayudándonos a atraer más pacientes. La comunicación fue fluida, los plazos se cumplieron y la calidad del trabajo fue impecable.</p>
 					</blockquote>
 					<figcaption>
-						<strong>John</strong><p>CMO, Syswave</p>
+						<strong>Xavi</strong><p>Doctor, De Felipe Clínica Dermatológica</p>
 					</figcaption>
 				</figure>
 			</div>
