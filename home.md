@@ -26,9 +26,9 @@ permalink: /
 					<path d="M16 59c0-23.748 19.252-43 43-43h246c23.748 0 43 19.252 43 43v615c0 23.196-18.804 42-42 42H58c-23.196 0-42-18.804-42-42V59Z" fill="#343E4E" />
 					<!-- Group all images and apply the clipPath -->
 					<g clip-path="url(#clip)" transform="translate(24 24)">
-						<image class="slide slide1" href="assets/img/novapay.png" width="316" height="684" preserveAspectRatio="xMidYMid slice" />
-						<image class="slide slide2" href="assets/img/novapay2.png" width="316" height="684" preserveAspectRatio="xMidYMid slice" />
-						<image class="slide slide3" href="assets/img/novapay3.png" width="316" height="684" preserveAspectRatio="xMidYMid slice" />
+						<image class="slide slide1" href="assets/img/novapay.avif" width="316" height="684" preserveAspectRatio="xMidYMid slice" />
+						<image class="slide slide2" href="assets/img/novapay2.avif" width="316" height="684" preserveAspectRatio="xMidYMid slice" />
+						<image class="slide slide3" href="assets/img/novapay3.avif" width="316" height="684" preserveAspectRatio="xMidYMid slice" />
 					</g>
 				</svg>
 			</div>

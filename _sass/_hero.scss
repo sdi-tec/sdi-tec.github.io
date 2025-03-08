@@ -65,19 +65,19 @@
                                 border-radius: 10px;
                             }
                             .img1{
-                                background-image: url("/assets/img/row.jpg");
+                                background-image: url("/assets/img/row.avif");
                                 @include img-mosaic;
                             }
                             .img2{
-                                background-image: url("/assets/img/fast.jpg");
+                                background-image: url("/assets/img/fast.avif");
                                 @include img-mosaic;
                             }
                             .img3{
-                                background-image: url("/assets/img/tech.jpg");
+                                background-image: url("/assets/img/tech.avif");
                                 @include img-mosaic;
                             }
                             .img4{
-                                background-image: url("/assets/img/balance.jpg");
+                                background-image: url("/assets/img/balance.avif");
                                 @include img-mosaic;
                             }
                         }
