@@ -11,7 +11,7 @@ permalink: /
 				<p class="hero-description">Innovación digital para tu empresa: Desarrollo web y software, ciberseguridad, diseño impactante, marketing digital, IoT, IA y consultoría estratégica. <br>Todo lo que necesitas para crecer y destacarte.
 				</p>
 				<div class="hero-button-wrapper">
-					<a href="#" class="hero-button">Contáctanos</a>
+					<a href="https://wa.me/34669024579?text=Hola%2C%20estoy%20interesado%20en%20vuestros%20servicios%20digitales" class="hero-button">Contáctanos</a>
 				</div>
 			</div>
 			<div class="home-hero-screenshot">
