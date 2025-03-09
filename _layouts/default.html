@@ -3,19 +3,24 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    {% include header.html %}
-    <main>
-      {{ content }}
-    </main>
-    {% include footer.html %}
-    <script data-goatcounter="https://dk2hpg5qzp.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="SDi" />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script data-goatcounter="https://dk2hpg5qzp.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
 </html>
