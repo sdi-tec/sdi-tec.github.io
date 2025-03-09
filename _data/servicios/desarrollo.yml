@@ -97,3 +97,14 @@ services:
     Ejemplo1: "<p><span><b>Blog Profesional:</b> Creaci&oacute;n de un sitio de noticias optimizado para SEO. </span><span>(WordPress + Elementor)</span></p>"
     Ejemplo2: "<p><span><b>Web Corporativa para una Startup:</b> P&aacute;gina institucional con secciones de servicios y contacto. </span><span>(Joomla + Bootstrap)</span></p>"
     Ejemplo3: "<p><span><b>E-commerce en WooCommerce:</b> Tienda online con pasarela de pagos y gesti&oacute;n de env&iacute;os. </span><span>(WordPress + WooCommerce)</span></p>"
+  - name: "Desarrollo de Microservicios y Arquitectura Serverless"
+    icon: "assets/icons/microservices.svg"
+    desc: "Diseño e implementación de microservicios y soluciones serverless para aplicaciones escalables, eficientes y de alto rendimiento."
+    techs:
+      - AWS Lambda
+      - Kubernetes
+      - Docker
+      - Firebase Functions
+    Ejemplo1: "<p><span><b>Arquitectura de Microservicios para una Fintech:</b> Separación de servicios en contenedores para mejorar la escalabilidad y la resiliencia de la plataforma.</span><span>(Docker, Kubernetes, API Gateway)</span></p>"
+    Ejemplo2: "<p><span><b>Implementación Serverless en una Tienda Online:</b> Uso de AWS Lambda y Firebase Functions para manejar pagos y envíos sin necesidad de servidores dedicados.</span><span>(AWS Lambda, Firebase, Stripe API)</span></p>"
+    Ejemplo3: "<p><span><b>Optimización de Backend para una App Móvil:</b> Migración de un backend monolítico a una arquitectura basada en microservicios con balanceo de carga.</span><span>(Node.js, GraphQL, Kubernetes)</span></p>"

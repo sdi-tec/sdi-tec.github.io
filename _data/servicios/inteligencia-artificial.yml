@@ -37,3 +37,35 @@ services:
     Ejemplo1: "<p><span><b>Chatbot con IA para Servicio al Cliente:</b> Bot que responde preguntas frecuentes y escala casos complejos a agentes humanos. </span><span>(Dialogflow, GPT, Twilio API)</span></p>"
     Ejemplo2: "<p><span><b>Generación Automática de Contenido:</b> Algoritmo que crea descripciones de productos para una tienda online con inteligencia artificial. </span><span>(OpenAI API, LangChain, Pinecone)</span></p>"
     Ejemplo3: "<p><span><b>Optimizaci&oacute;n de Procesos Empresariales:</b> IA que analiza flujos de trabajo y sugiere mejoras en la asignaci&oacute;n de recursos. </span><span>(Power Automate, IBM Watson, Azure AI)</span></p>"
+  - name: "Visión por Computadora"
+    icon: "assets/icons/eye.svg"
+    desc: "Soluciones de visión por computadora para detección de objetos, análisis de imágenes y automatización con IA."
+    techs:
+      - OpenCV
+      - TensorFlow
+      - YOLO
+    Ejemplo1: "<p><span><b>Reconocimiento Facial para Seguridad:</b> Implementación de un sistema de autenticación basado en reconocimiento facial.</span><span>(OpenCV, Dlib, TensorFlow)</span></p>"
+    Ejemplo2: "<p><span><b>Detección de Defectos en Manufactura:</b> Análisis de imágenes en tiempo real para identificar fallos en líneas de producción.</span><span>(YOLO, OpenCV, AWS Rekognition)</span></p>"
+    Ejemplo3: "<p><span><b>Clasificación de Imágenes Médicas:</b> Diagnóstico asistido por IA en imágenes médicas como radiografías y resonancias.</span><span>(TensorFlow, Keras, PyTorch)</span></p>"
+
+  - name: "Procesamiento de Lenguaje Natural (NLP)"
+    icon: "assets/icons/person.svg"
+    desc: "Desarrollo de soluciones de NLP para comprensión y generación de texto automatizada."
+    techs:
+      - SpaCy
+      - GPT
+      - Hugging Face Transformers
+    Ejemplo1: "<p><span><b>Análisis de Sentimientos en Redes Sociales:</b> Modelo que analiza comentarios en redes para evaluar la percepción de una marca.</span><span>(NLTK, GPT, Hugging Face)</span></p>"
+    Ejemplo2: "<p><span><b>Resumen Automático de Documentos:</b> Algoritmo que extrae la información clave de textos extensos.</span><span>(SpaCy, BERT, LangChain)</span></p>"
+    Ejemplo3: "<p><span><b>Asistente Virtual Inteligente:</b> Creación de un chatbot avanzado con comprensión del lenguaje natural.</span><span>(GPT-4, OpenAI API, Rasa)</span></p>"
+
+  - name: "Análisis de Datos y Visualización con IA"
+    icon: "assets/icons/view-data.svg"
+    desc: "Transformación de datos en insights accionables mediante inteligencia artificial y herramientas de visualización."
+    techs:
+      - Power BI
+      - Tableau
+      - Pandas
+    Ejemplo1: "<p><span><b>Predicción de Demanda de Productos:</b> Análisis de datos históricos para optimizar inventarios y reducir desperdicio.</span><span>(Pandas, Scikit-Learn, Tableau)</span></p>"
+    Ejemplo2: "<p><span><b>Dashboard de Análisis Financiero:</b> Creación de paneles interactivos con métricas clave para toma de decisiones.</span><span>(Power BI, SQL, AI Analytics)</span></p>"
+    Ejemplo3: "<p><span><b>Optimización de Campañas de Marketing:</b> Modelos de IA para identificar patrones en el comportamiento del cliente.</span><span>(Google BigQuery, AutoML, Looker)</span></p>"
