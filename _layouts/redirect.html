@@ -36,6 +36,16 @@
             const source = urlParams.get('utm_source') || 'pdf';
             const medium = urlParams.get('utm_medium') || 'document';
             
+            // Debug: Log what we're tracking
+            console.log('Tracking parameters:', {
+                campaign: campaign,
+                source: source,
+                medium: medium,
+                document: documentName,
+                page: pageNumber,
+                timestamp: timestamp
+            });
+            
             // Check if we have a target URL for redirect
             if (targetUrl) {
                 // Validate URL format
@@ -62,11 +72,10 @@
                 document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
                 document.getElementById('manual-link').href = finalUrl;
                 
-                // Wait longer for GoatCounter to load and track the page view with UTM parameters
+                // Brief delay for GoatCounter to track the page view with UTM parameters
                 setTimeout(() => {
-                    // Redirect after GoatCounter has had time to process the campaign parameters
                     window.location.href = finalUrl;
-                }, 3000); // Increased to 3 seconds to ensure GoatCounter tracking
+                }, 250); // Just 250ms for GoatCounter to process parameters
             } else {
                 // No redirect URL - just tracking campaign parameters
                 document.querySelector('.redirect-text').textContent = 'Campaign tracking activado';
