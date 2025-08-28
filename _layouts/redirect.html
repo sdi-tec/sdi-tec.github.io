@@ -72,10 +72,21 @@
                 document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
                 document.getElementById('manual-link').href = finalUrl;
                 
-                // Brief delay for GoatCounter to track the page view with UTM parameters
-                setTimeout(() => {
-                    window.location.href = finalUrl;
-                }, 1000); // Just 250ms for GoatCounter to process parameters
+                // Wait for GoatCounter to be ready and track the page view
+                const waitForGoatCounter = () => {
+                    if (window.goatcounter && window.goatcounter.count) {
+                        // GoatCounter is ready, wait a bit more for it to process parameters
+                        setTimeout(() => {
+                            window.location.href = finalUrl;
+                        }, 500);
+                    } else {
+                        // GoatCounter not ready yet, wait and check again
+                        setTimeout(waitForGoatCounter, 100);
+                    }
+                };
+                
+                // Start waiting for GoatCounter
+                waitForGoatCounter();
             } else {
                 // No redirect URL - just tracking campaign parameters
                 document.querySelector('.redirect-text').textContent = 'Campaign tracking activado';
