@@ -20,80 +20,82 @@
     </div>
 
     <script>
-        // Parse URL parameters
-        const urlParams = new URLSearchParams(window.location.search);
-        
-        // Get redirect parameters
-        const targetUrl = urlParams.get('url') || urlParams.get('redirect');
-        const documentName = urlParams.get('doc') || urlParams.get('document');
-        const pageNumber = urlParams.get('page') || urlParams.get('p');
-        const timestamp = urlParams.get('ts') || urlParams.get('timestamp');
-        const campaign = urlParams.get('campaign') || urlParams.get('utm_campaign');
-        const source = urlParams.get('source') || urlParams.get('utm_source') || 'pdf';
-        const medium = urlParams.get('medium') || urlParams.get('utm_medium') || 'document';
-        
-        // Validate target URL
-        if (!targetUrl) {
-            document.getElementById('manual-link').style.display = 'none';
-            document.querySelector('.redirect-text').textContent = 'Error: URL de destino no especificada';
-            return;
-        }
-        
-        // Validate URL format
-        let finalUrl;
-        try {
-            // If it's a relative URL, make it absolute
-            if (targetUrl.startsWith('/') || targetUrl.startsWith('./')) {
-                finalUrl = window.location.origin + targetUrl;
-            } else if (targetUrl.startsWith('http://') || targetUrl.startsWith('https://')) {
-                finalUrl = targetUrl;
-            } else if (targetUrl.startsWith('mailto:') || targetUrl.startsWith('tel:') || targetUrl.startsWith('whatsapp:')) {
-                finalUrl = targetUrl;
-            } else {
-                // Assume it's a relative path
-                finalUrl = window.location.origin + '/' + targetUrl;
+        (function() {
+            // Parse URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            // Get redirect parameters
+            const targetUrl = urlParams.get('url') || urlParams.get('redirect');
+            const documentName = urlParams.get('doc') || urlParams.get('document');
+            const pageNumber = urlParams.get('page') || urlParams.get('p');
+            const timestamp = urlParams.get('ts') || urlParams.get('timestamp');
+            const campaign = urlParams.get('utm_campaign');
+            const source = urlParams.get('utm_source') || 'pdf';
+            const medium = urlParams.get('utm_medium') || 'document';
+            
+            // Validate target URL
+            if (!targetUrl) {
+                document.getElementById('manual-link').style.display = 'none';
+                document.querySelector('.redirect-text').textContent = 'Error: URL de destino no especificada';
+                return;
             }
-        } catch (e) {
-            document.getElementById('manual-link').style.display = 'none';
-            document.querySelector('.redirect-text').textContent = 'Error: URL inválida';
-            return;
-        }
-        
-        // Update display
-        document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
-        document.getElementById('manual-link').href = finalUrl;
-        
-        // Prepare GoatCounter tracking data
-        const trackingData = {
-            path: window.location.pathname + window.location.search,
-            title: 'PDF Redirect',
-            event: true,
-            // Custom event data
-            custom: {
-                document: documentName || 'unknown',
-                page: pageNumber || 'unknown',
-                timestamp: timestamp || new Date().toISOString(),
-                campaign: campaign || 'pdf-redirect',
-                source: source,
-                medium: medium,
-                target_url: finalUrl
-            }
-        };
-        
-        // Track with GoatCounter if available
-        if (window.goatcounter && window.goatcounter.count) {
-            // Wait a moment for GoatCounter to load, then track
-            setTimeout(() => {
-                if (window.goatcounter.count) {
-                    window.goatcounter.count(trackingData);
+            
+            // Validate URL format
+            let finalUrl;
+            try {
+                // If it's a relative URL, make it absolute
+                if (targetUrl.startsWith('/') || targetUrl.startsWith('./')) {
+                    finalUrl = window.location.origin + targetUrl;
+                } else if (targetUrl.startsWith('http://') || targetUrl.startsWith('https://')) {
+                    finalUrl = targetUrl;
+                } else if (targetUrl.startsWith('mailto:') || targetUrl.startsWith('tel:') || targetUrl.startsWith('whatsapp:')) {
+                    finalUrl = targetUrl;
+                } else {
+                    // Assume it's a relative path
+                    finalUrl = window.location.origin + '/' + targetUrl;
                 }
-            }, 100);
-        }
-        
-        // Redirect after a short delay to allow tracking
-        setTimeout(() => {
-            window.location.href = finalUrl;
-        }, 1500);
+            } catch (e) {
+                document.getElementById('manual-link').style.display = 'none';
+                document.querySelector('.redirect-text').textContent = 'Error: URL inválida';
+                return;
+            }
+            
+            // Update display
+            document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
+            document.getElementById('manual-link').href = finalUrl;
+            
+            // Prepare GoatCounter tracking data
+            const trackingData = {
+                path: window.location.pathname + window.location.search,
+                title: 'PDF Redirect',
+                event: true,
+                // Custom event data
+                custom: {
+                    document: documentName || 'unknown',
+                    page: pageNumber || 'unknown',
+                    timestamp: timestamp || new Date().toISOString(),
+                    campaign: campaign || 'pdf-redirect',
+                    source: source,
+                    medium: medium,
+                    target_url: finalUrl
+                }
+            };
+            
+            // Track with GoatCounter if available
+            if (window.goatcounter && window.goatcounter.count) {
+                // Wait a moment for GoatCounter to load, then track
+                setTimeout(() => {
+                    if (window.goatcounter.count) {
+                        window.goatcounter.count(trackingData);
+                    }
+                }, 100);
+            }
+            
+            // Redirect after a short delay to allow tracking
+            setTimeout(() => {
+                window.location.href = finalUrl;
+            }, 1500);
+        })();
     </script>
 </body>
 </html>
