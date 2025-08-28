@@ -6,6 +6,9 @@
     <title>{{ page.title }}</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
 </head>
 <body class="redirect-page">
     <div class="redirect-container">
@@ -31,8 +34,8 @@
         
         // Validate target URL
         if (!targetUrl) {
-            document.getElementById('destination').textContent = 'Error: URL de destino no especificada';
             document.getElementById('manual-link').style.display = 'none';
+            document.querySelector('.redirect-text').textContent = 'Error: URL de destino no especificada';
             return;
         }
         
@@ -51,13 +54,13 @@
                 finalUrl = window.location.origin + '/' + targetUrl;
             }
         } catch (e) {
-            document.getElementById('destination').textContent = 'Error: URL inválida';
             document.getElementById('manual-link').style.display = 'none';
+            document.querySelector('.redirect-text').textContent = 'Error: URL inválida';
             return;
         }
         
         // Update display
-        document.getElementById('destination').textContent = `Redirigiendo a: ${finalUrl}`;
+        document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
         document.getElementById('manual-link').href = finalUrl;
         
         // Prepare GoatCounter tracking data

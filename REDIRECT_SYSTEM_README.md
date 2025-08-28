@@ -32,38 +32,38 @@ bundle exec jekyll serve
 ### Basic Redirect
 
 ```
-https://yourdomain.com/redirect/?url=https://yourdomain.com/contacto
+https://sdi-tec.github.io/redirect/?url=https://sdi-tec.github.io/contacto
 ```
 
 ### Full Tracking
 
 ```
-https://yourdomain.com/redirect/?url=https://yourdomain.com/contacto&doc=propuesta-comercial&page=5&ts=2025-01-27T10:30:00Z
+https://sdi-tec.github.io/redirect/?url=https://sdi-tec.github.io/contacto&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=5&ts=2025-01-27T10:30:00Z
 ```
 
 ### WhatsApp Contact
 
 ```
-https://yourdomain.com/redirect/?url=whatsapp://send?phone=+1234567890&text=Hola&doc=propuesta-comercial&page=3
+https://sdi-tec.github.io/redirect/?url=whatsapp://send?phone=+1234567890&text=Hola&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=3
 ```
 
 ### Email Contact
 
 ```
-https://yourdomain.com/redirect/?url=mailto:contact@yourdomain.com?subject=Consulta&doc=propuesta-comercial&page=7
+https://sdi-tec.github.io/redirect/?url=mailto:contact@sdi-tec.github.io?subject=Consulta&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=7
 ```
 
 ## URL Parameters
 
 | Parameter | Description | Example |
 |-----------|-------------|---------|
-| `url` or `redirect` | **Required** - Target URL to redirect to | `https://yourdomain.com/contacto` |
-| `doc` or `document` | Document name for tracking | `propuesta-comercial` |
-| `page` or `p` | Page number in the document | `5` |
-| `ts` or `timestamp` | Timestamp when link was created | `2025-01-27T10:30:00Z` |
-| `campaign` or `utm_campaign` | Campaign name for GoatCounter | `pdf-q1-2025` |
-| `source` or `utm_source` | Source of the traffic | `pdf` |
-| `medium` or `utm_medium` | Medium type | `document` |
+| `url` or `redirect` | **Required** - Target URL to redirect to | `https://sdi-tec.github.io/contacto` |
+| `utm_campaign` | Campaign name for GoatCounter | `pdf-q1-2025` |
+| `utm_source` | Source of the traffic | `pdf` |
+| `utm_medium` | Medium type | `document` |
+| `doc` | Document name (custom tracking) | `propuesta-comercial` |
+| `page` | Page number (custom tracking) | `5` |
+| `ts` | Timestamp (custom tracking) | `2025-01-27T10:30:00Z` |
 
 ## GoatCounter Integration
 
@@ -81,17 +81,17 @@ This data will appear in your GoatCounter dashboard under Events and Campaigns.
 
 ### For Website Pages
 ```
-https://yourdomain.com/redirect/?url=/contacto&doc=propuesta-comercial&page=5
+https://sdi-tec.github.io/redirect/?url=/contacto&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=5
 ```
 
 ### For WhatsApp
 ```
-https://yourdomain.com/redirect/?url=whatsapp://send?phone=+1234567890&text=Hola,%20me%20interesa%20su%20servicio&doc=propuesta-comercial&page=3
+https://sdi-tec.github.io/redirect/?url=whatsapp://send?phone=+1234567890&text=Hola,%20me%20interesa%20su%20servicio&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=3
 ```
 
 ### For Email
 ```
-https://yourdomain.com/redirect/?url=mailto:contact@yourdomain.com?subject=Consulta%20sobre%20servicios&body=Hola,%20me%20interesa%20su%20servicio&doc=propuesta-comercial&page=7
+https://sdi-tec.github.io/redirect/?url=mailto:contact@sdi-tec.github.io?subject=Consulta%20sobre%20servicios&body=Hola,%20me%20interesa%20su%20servicio&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=7
 ```
 
 ## Advanced Features
@@ -100,14 +100,14 @@ https://yourdomain.com/redirect/?url=mailto:contact@yourdomain.com?subject=Consu
 Create different campaigns for different types of documents:
 
 ```
-https://yourdomain.com/redirect/?url=/contacto&campaign=propuestas-q1&source=pdf&medium=document
+https://sdi-tec.github.io/redirect/?url=/contacto&utm_campaign=propuestas-q1&utm_source=pdf&utm_medium=document
 ```
 
 ### Timestamp Tracking
 Include timestamps to track when links were accessed:
 
 ```
-https://yourdomain.com/redirect/?url=/contacto&ts=2025-01-27T10:30:00Z
+https://sdi-tec.github.io/redirect/?url=/contacto&ts=2025-01-27T10:30:00Z
 ```
 
 ## Security Considerations
