@@ -36,42 +36,47 @@
             const source = urlParams.get('utm_source') || 'pdf';
             const medium = urlParams.get('utm_medium') || 'document';
             
-            // Validate target URL
-            if (!targetUrl) {
-                document.getElementById('manual-link').style.display = 'none';
-                document.querySelector('.redirect-text').textContent = 'Error: URL de destino no especificada';
-                return;
-            }
-            
-            // Validate URL format
-            let finalUrl;
-            try {
-                // If it's a relative URL, make it absolute
-                if (targetUrl.startsWith('/') || targetUrl.startsWith('./')) {
-                    finalUrl = window.location.origin + targetUrl;
-                } else if (targetUrl.startsWith('http://') || targetUrl.startsWith('https://')) {
-                    finalUrl = targetUrl;
-                } else if (targetUrl.startsWith('mailto:') || targetUrl.startsWith('tel:') || targetUrl.startsWith('whatsapp:')) {
-                    finalUrl = targetUrl;
-                } else {
-                    // Assume it's a relative path
-                    finalUrl = window.location.origin + '/' + targetUrl;
+            // Check if we have a target URL for redirect
+            if (targetUrl) {
+                // Validate URL format
+                let finalUrl;
+                try {
+                    // If it's a relative URL, make it absolute
+                    if (targetUrl.startsWith('/') || targetUrl.startsWith('./')) {
+                        finalUrl = window.location.origin + targetUrl;
+                    } else if (targetUrl.startsWith('http://') || targetUrl.startsWith('https://')) {
+                        finalUrl = targetUrl;
+                    } else if (targetUrl.startsWith('mailto:') || targetUrl.startsWith('tel:') || targetUrl.startsWith('whatsapp:')) {
+                        finalUrl = targetUrl;
+                    } else {
+                        // Assume it's a relative path
+                        finalUrl = window.location.origin + '/' + targetUrl;
+                    }
+                } catch (e) {
+                    document.getElementById('manual-link').style.display = 'none';
+                    document.querySelector('.redirect-text').textContent = 'Error: URL inválida';
+                    return;
                 }
-            } catch (e) {
+                
+                // Update display for redirect
+                document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
+                document.getElementById('manual-link').href = finalUrl;
+                
+                // Wait longer for GoatCounter to load and track the page view with UTM parameters
+                setTimeout(() => {
+                    // Redirect after GoatCounter has had time to process the campaign parameters
+                    window.location.href = finalUrl;
+                }, 3000); // Increased to 3 seconds to ensure GoatCounter tracking
+            } else {
+                // No redirect URL - just tracking campaign parameters
+                document.querySelector('.redirect-text').textContent = 'Campaign tracking activado';
                 document.getElementById('manual-link').style.display = 'none';
-                document.querySelector('.redirect-text').textContent = 'Error: URL inválida';
-                return;
+                
+                // Wait for GoatCounter to track, then show success message
+                setTimeout(() => {
+                    document.querySelector('.redirect-text').textContent = 'Campaign tracked successfully!';
+                }, 2000);
             }
-            
-            // Update display
-            document.querySelector('.redirect-text').textContent = `Redirigiendo a: ${finalUrl}`;
-            document.getElementById('manual-link').href = finalUrl;
-            
-            // Wait longer for GoatCounter to load and track the page view with UTM parameters
-            setTimeout(() => {
-                // Redirect after GoatCounter has had time to process the campaign parameters
-                window.location.href = finalUrl;
-            }, 3000); // Increased to 3 seconds to ensure GoatCounter tracking
         })();
     </script>
 </body>
