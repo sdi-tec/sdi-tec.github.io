@@ -78,7 +78,7 @@
                         // GoatCounter is ready, wait a bit more for it to process parameters
                         setTimeout(() => {
                             window.location.href = finalUrl;
-                        }, 1000);
+                        }, 500);
                     } else {
                         // GoatCounter not ready yet, wait and check again
                         setTimeout(waitForGoatCounter, 100);
@@ -92,10 +92,21 @@
                 document.querySelector('.redirect-text').textContent = 'Campaign tracking activado';
                 document.getElementById('manual-link').style.display = 'none';
                 
-                // Wait for GoatCounter to track, then show success message
-                setTimeout(() => {
-                    document.querySelector('.redirect-text').textContent = 'Campaign tracked successfully!';
-                }, 2000);
+                // Wait for GoatCounter to be ready and process the campaign parameters
+                const waitForGoatCounter = () => {
+                    if (window.goatcounter && window.goatcounter.count) {
+                        // GoatCounter is ready, wait a bit more for it to process parameters
+                        setTimeout(() => {
+                            document.querySelector('.redirect-text').textContent = 'Campaign tracked successfully!';
+                        }, 500);
+                    } else {
+                        // GoatCounter not ready yet, wait and check again
+                        setTimeout(waitForGoatCounter, 100);
+                    }
+                };
+                
+                // Start waiting for GoatCounter
+                waitForGoatCounter();
             }
         })();
     </script>
