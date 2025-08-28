@@ -76,7 +76,9 @@
                 const waitForGoatCounter = () => {
                     if (window.goatcounter && window.goatcounter.count) {
                         // GoatCounter is ready, wait a bit more for it to process parameters
+                        console.log('GoatCounter ready, redirecting in 500ms...');
                         setTimeout(() => {
+                            console.log('Redirecting to:', finalUrl);
                             window.location.href = finalUrl;
                         }, 500);
                     } else {
@@ -87,6 +89,14 @@
                 
                 // Start waiting for GoatCounter
                 waitForGoatCounter();
+                
+                // Fallback: redirect anyway after 3 seconds if GoatCounter doesn't load
+                setTimeout(() => {
+                    if (window.location.href !== finalUrl) {
+                        console.log('Fallback redirect to:', finalUrl);
+                        window.location.href = finalUrl;
+                    }
+                }, 3000);
             } else {
                 // No redirect URL - just tracking campaign parameters
                 document.querySelector('.redirect-text').textContent = 'Campaign tracking activado';
