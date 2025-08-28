@@ -39,7 +39,11 @@ https://sdi-tec.github.io/redirect/?url=https://sdi-tec.github.io/contacto
 
 ```
 https://sdi-tec.github.io/redirect/?url=https://sdi-tec.github.io/contacto&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=5&ts=2025-01-27T10:30:00Z
+
+http://localhost:4000/redirect/?url=https://sdi-tec.github.io/contacto&utm_campaign=pdf-q1-2025&utm_source=pdf&utm_medium=document&doc=propuesta-comercial&page=5&ts=2025-01-27T10:30:00Z
 ```
+
+
 
 ### WhatsApp Contact
 

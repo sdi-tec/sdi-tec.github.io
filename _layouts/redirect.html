@@ -75,7 +75,7 @@
                 // Brief delay for GoatCounter to track the page view with UTM parameters
                 setTimeout(() => {
                     window.location.href = finalUrl;
-                }, 250); // Just 250ms for GoatCounter to process parameters
+                }, 1000); // Just 250ms for GoatCounter to process parameters
             } else {
                 // No redirect URL - just tracking campaign parameters
                 document.querySelector('.redirect-text').textContent = 'Campaign tracking activado';
